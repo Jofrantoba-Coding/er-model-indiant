@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BFD23166-ECE9-9202-C013-FDB6107E599C" name="TIPO_SUSCRIPCION">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-05 22:06:32 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<nameFixed>true</nameFixed>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_TIPO_SUSCRIPCION" id="ECC40AAA-5499-BAEE-2FE2-05725D82F3BB">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-09 16:33:57 UTC</createdTime>
+<comment>IF: INFORMACION CONTACTO&lt;br/&gt;G: GEOLOCALIZACION&lt;br/&gt;E: ENLACE&lt;br/&gt;VI: VISTA IMPRESION</comment>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="DESCRIPCION" id="8DBD67C5-1EE1-4964-7250-F674ECD38611">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-05 22:30:08 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ESTADO" id="2657EE9B-9FDB-3945-1DA8-95D58ADA0C36">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-05 22:30:39 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4BE066EF-7186-B8FC-CCFC-9553AB9E8875" name="TIPO_SUSCRIPCION PK">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-09 16:34:15 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>ECC40AAA-5499-BAEE-2FE2-05725D82F3BB</newElementsIDs>
+<nameFixed>true</nameFixed>
+<usedAttributes>
+<attributeRef>ECC40AAA-5499-BAEE-2FE2-05725D82F3BB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_PAIS_PAISMONEDA" directorySegmentName="seg_0" id="D61C44F6-745A-1427-3EA0-B44D7E217BAD">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-08 22:57:01 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<sourcePk>34660F93-A5CC-E7FB-7FB5-722C90E2C971</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FB459939-00B2-0B2B-F0FF-21F6EB3549B9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C95113CF-6BBA-8668-4A3B-BCA06359D990</targetEntity>
+<transferable>true</transferable>
+<nameFixed>true</nameFixed>
+</Relation>

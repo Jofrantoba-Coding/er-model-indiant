@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="C269C1C8-D6A6-B518-6C04-5F6469B30E42" name="TIPO_ANUNCIO">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>2C85D93C-28D2-38AE-22E0-13CBFC4321FD</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TIPO_ANUNCIO" id="D23755BD-0483-88A5-F51B-E81C0D2FBCF2">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>O: OFERTA&lt;br/&gt;P: PUBLICIDAD</comment>
+<generatorID>26836FEE-7A31-1891-9B96-81A0333AD2CA</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="3BE47B29-B8E4-4098-D3DD-3CA08F32D8B2">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>C1939502-620B-1744-26F0-2B1A884C6C09</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="1F5849AA-4A75-51AA-9E33-52A8E70DC0A4">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>50A92745-7B6B-75BE-BBAC-7CB36E907F6C</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB3E261D-3C8E-4060-2D1B-878A1923975C" name="TIPO_ANUNCIO_PK">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>DEAF8738-5DE4-DC10-71B9-106EA5AA2A9B</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D23755BD-0483-88A5-F51B-E81C0D2FBCF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

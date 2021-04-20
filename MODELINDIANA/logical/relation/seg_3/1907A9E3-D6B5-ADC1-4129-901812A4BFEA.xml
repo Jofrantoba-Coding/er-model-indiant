@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_TIPOSUSC_TARIFARIO" directorySegmentName="seg_3" id="1907A9E3-D6B5-ADC1-4129-901812A4BFEA">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-14 23:21:20 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<sourcePk>4BE066EF-7186-B8FC-CCFC-9553AB9E8875</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BFD23166-ECE9-9202-C013-FDB6107E599C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>80504703-411C-EF9F-8CCC-01CDC57A12C3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<nameFixed>true</nameFixed>
+</Relation>

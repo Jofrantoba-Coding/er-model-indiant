@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="8F213DB6-9DAD-0534-56DF-89733E82F9F9" name="TIPO_NOTIFICACION">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>940C09E7-0907-7713-7197-5A975F46E16E</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TIPO_NOTIFICACION" id="2018BDCA-89A4-B6D7-E000-0DF71B48FBEB">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>ESA: ENVIO SOLICITUD AMISTAD&lt;br/&gt;SAA: SOLICITUD AMISTAD ACEPTADA&lt;br/&gt;CMC: COMENTARIO CONQUISTA&lt;br/&gt;CPC: COMPARTIR CONQUISTA&lt;br/&gt;DCO: DIVULGAR CONQUISTA&lt;br/&gt;CCR:COMENTARIO CONQUISTA RELACIONADO&lt;br/&gt;DCR: DIVULGACION CONQUISTA RELACIONADO&lt;br/&gt;CMN: COMENTARIO NOVEDAD&lt;br/&gt;CPN: COMPARTIR NOVEDAD&lt;br/&gt;DNO: DIVULGAR NOVEDAD&lt;br/&gt;CNR: COMENTARIO NOVEDAD RELACIONADA&lt;br/&gt;DNR:DIVULGACION NOVEDAD RELACIONA&lt;br/&gt;UCO: UNIRSE A COLONIA&lt;br/&gt;ACO: ABANDONAR COLONIA&lt;br/&gt;SCO: SUGERIR COLONIA&lt;br/&gt;SIM: SUGERIR INTERES A MIEMBRO&lt;br/&gt;GEI: GENERAR EMPATIA INTERES&lt;br/&gt;CNQ: CONQUISTA&lt;br/&gt;UQC: USUARIO QUIERE CONQUISTAR&lt;br/&gt;OFN: OFERTA NEGOCIO&lt;br/&gt;CND: CREACION NUEVO DESTINO&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</comment>
+<generatorID>2F2686B5-944E-7510-D481-2001D4D74AD7</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="D0482E61-13C4-421B-6C82-8D00441EDDB5">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>4EA9EB3C-0042-562E-98C6-9F978744E971</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MENSAJE" id="22614129-A9FA-2D1B-A623-0914EE8E18F9">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>CBB2107C-D061-BA66-2D90-A3F5CC6F3A8A</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="211AB231-8471-5920-E762-4235F0B5B5ED" name="NOTIFICACION_PKv1">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>9121CA54-0D3A-40FE-8C34-D7D3199238C2</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2018BDCA-89A4-B6D7-E000-0DF71B48FBEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

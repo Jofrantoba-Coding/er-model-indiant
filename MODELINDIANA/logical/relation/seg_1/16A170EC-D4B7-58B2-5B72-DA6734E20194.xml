@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_COLINT_DETINT" directorySegmentName="seg_1" id="16A170EC-D4B7-58B2-5B72-DA6734E20194">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-02 21:01:26 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<sourcePk>0D8235FB-8C61-2847-00ED-25C8A57BB1CD</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E66086A9-319B-908F-257E-5E5386C1C823</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DC2C1B40-531A-6BBF-0EA4-31FD559851D3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<nameFixed>true</nameFixed>
+</Relation>

@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="76BCA774-CD7B-0453-6AE5-B99B457376F2" name="PARAMETROS_SISTEMA">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-14 23:12:42 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<nameFixed>true</nameFixed>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PARAMETRO_SISTEMA" id="6508F166-2A5A-FF5F-C8C7-C5E14F75AC08">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-14 23:13:06 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="DESCRIPCION" id="8A5263B7-95B8-9135-E45D-9D9BC515AE33">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-14 23:15:32 UTC</createdTime>
+<comment>RANGO BUSQUEDA PROXIMIDAD: 5KM&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</comment>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="VALOR" id="800439D3-B0A1-8E72-DB07-CF17E5B2BA90">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-14 23:13:35 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="TIPO_DATO" id="41E80878-DDA4-CFDC-4D13-AECF67E0458C">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-14 23:14:08 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ESTADO" id="AF125BE0-FD14-7D59-068F-ACE8C43CB8A5">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-14 23:14:32 UTC</createdTime>
+<comment>A:ACTIVO&lt;br/&gt;D:DESACTIVO</comment>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D76414AA-A1A9-DBDA-53DF-9D01FF1441B8" name="PARAMETROS_SISTEMA PK">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-14 23:13:33 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<nameFixed>true</nameFixed>
+<usedAttributes>
+<attributeRef>6508F166-2A5A-FF5F-C8C7-C5E14F75AC08</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

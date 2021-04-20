@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="67B52D78-8FC0-0A16-1F54-634BC7D9FA9B" name="SOLICITUD_AMISTAD">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-03 23:10:20 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<nameFixed>true</nameFixed>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_SOLICITUD_AMISTAD" id="3ECEEC56-46BF-1F75-F556-B82399470997">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-10 22:06:32 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_ESTADO_SOLICITUD_AMISTAD" id="9BD2F383-9848-CC15-4CA8-51CC504C93C2">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-10 22:06:07 UTC</createdTime>
+<comment>P: PENDIENTE&lt;br/&gt;A: ACEPTADA&lt;br/&gt;R: RECHAZADA</comment>
+<generatorID>B0038F9B-1DDC-117A-D0F5-9DA38AB2F4BF</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<referedAttribute>CF0B9A4C-A63E-F6CD-2154-318FFBF14D51</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="CORREO_TURISTA_ENVIA" id="627C8DA8-FDAE-C411-3EA4-EF539BD55FAD">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-10 22:09:19 UTC</createdTime>
+<generatorID>415F28C6-73BE-635E-5BEC-CA2E38F074BF</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<referedAttribute>E4888C69-8EEC-E6DE-FD4D-C6B96B0AD0A6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="CORREO_TURISTA_RECIBE" id="CE406DAF-0C99-D284-2A86-7A5AF5B4E2B6">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-10 22:09:25 UTC</createdTime>
+<generatorID>7AC2FAF0-5EF6-D4E5-82A9-E5B7E717650F</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<referedAttribute>E4888C69-8EEC-E6DE-FD4D-C6B96B0AD0A6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="FECHA" id="316EE63D-564A-190D-8E3A-3731E4536075">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-04 17:09:09 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A3AD8F3B-4113-2FBB-DCAC-80207CC6FC48" name="SOLICITUD AMISTAD PK">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-09 18:58:16 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>3ECEEC56-46BF-1F75-F556-B82399470997</newElementsIDs>
+<nameFixed>true</nameFixed>
+<usedAttributes>
+<attributeRef>3ECEEC56-46BF-1F75-F556-B82399470997</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

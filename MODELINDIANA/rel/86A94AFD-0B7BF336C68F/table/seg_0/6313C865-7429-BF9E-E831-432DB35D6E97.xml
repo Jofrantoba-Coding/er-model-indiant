@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6313C865-7429-BF9E-E831-432DB35D6E97" name="PAIS">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>FB459939-00B2-0B2B-F0FF-21F6EB3549B9</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PAIS" id="C343EB2B-A1D8-C8A4-D84B-D973F38CF6A0">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>CODIGO ALFA 3 - ISO 3166-1.&lt;br/&gt;Ejemplo:&lt;br/&gt;PERU - PER</comment>
+<generatorID>CC641324-F2A2-BD74-B9E2-E316F1FBBA03</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="93F59FB0-76A1-997C-5EDF-EA2F0A0E743B">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>CCFE0C14-749A-42A2-B1E5-A39BFE9EC0D2</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="URLICO" id="9B2D2C95-5BAA-FD1F-64E5-36F8B130098B">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>GUARDAR LA URL DEL ICONO DEL PAIS(BANDERA) GUARDADO EN UNA CUENTA PUBLICA EN FLICKR</comment>
+<generatorID>1682C186-C961-0F2A-ADA7-DB574C684625</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3000 CHAR</dataTypeSize>
+<ownDataTypeParameters>3000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E4737BA0-39F1-6F63-826E-7741F40D8DD4" name="PAIS_PK">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>34660F93-A5CC-E7FB-7FB5-722C90E2C971</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C343EB2B-A1D8-C8A4-D84B-D973F38CF6A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

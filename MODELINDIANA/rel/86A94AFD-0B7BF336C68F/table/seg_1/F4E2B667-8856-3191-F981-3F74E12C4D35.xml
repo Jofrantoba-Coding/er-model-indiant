@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="F4E2B667-8856-3191-F981-3F74E12C4D35" name="TARIFARIO">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>80504703-411C-EF9F-8CCC-01CDC57A12C3</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TARIFARIO" id="A91672CB-BD97-F50B-69CE-62FEB0D498D3">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>02CC1177-4DC9-408A-C1B6-6D65D42C7094</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TIPO_SUSCRIPCION" id="A35C571D-202F-D28F-C597-4C3BD4FA5305">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>IF: INFORMACION CONTACTO&lt;br/&gt;G: GEOLOCALIZACION&lt;br/&gt;O: OFERTA&lt;br/&gt;VI: VISTA IMPRESION</comment>
+<generatorID>048FD218-86B7-3CDC-A094-510D1E971289</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A939618-1CFA-61B0-058F-9E14A8B3E8EB" referredColumn="E88F337E-393A-74FA-1586-D051D140B75C"/>
+</associations>
+</Column>
+<Column name="RANGO_PRECIOS_VISTA_IMPRESION" id="04FF410F-E758-6B02-440E-3A7D1AC157FA">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>10,000&lt;br/&gt;15,000&lt;br/&gt;20,000&lt;br/&gt;30,000&lt;br/&gt;50,000&lt;br/&gt;</comment>
+<generatorID>6DB11BF7-2149-AB69-11F9-97FBE3A40A10</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO_UNIDAD" id="0F2E5B26-81B6-704F-C22B-6B17475DB4CA">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>C5AB31C0-C8CC-AE6E-3327-6EF370CAD757</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,18,5</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PAIS" id="9605EED5-7BAA-70E9-6DAC-1D8349A94896">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>CODIGO ALFA 3 - ISO 3166-1.&lt;br/&gt;Ejemplo:&lt;br/&gt;PERU - PER</comment>
+<generatorID>0BCAFDC8-5225-46F4-FA15-6B64F2AE362E</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="906B149E-BEBE-CBA6-6616-237D39C3D993" referredColumn="C343EB2B-A1D8-C8A4-D84B-D973F38CF6A0"/>
+</associations>
+</Column>
+<Column name="ID_REGION" id="3F614CFD-E590-80A6-25DA-CE99DC851AE6">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>B64ADF67-DC4B-E4C6-09F9-4CC42573029E</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D54DA2F8-2608-D09E-28CC-A52531444669" referredColumn="C003ABDB-D214-3B5D-A67D-8778E8571EAE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3678251D-FFFE-1CCE-FCBF-1449AADD6B4F" name="TARIFARIO_PK">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>5ED65959-3053-D6E3-EC8D-5A60A9F7258F</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A91672CB-BD97-F50B-69CE-62FEB0D498D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9BE455FE-9638-27A1-25C5-4665B6C6266F" name="REL_PAIS_TARIFARIO">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>8522F2D0-8F75-6752-4DC8-53B8B60FD9BD</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9605EED5-7BAA-70E9-6DAC-1D8349A94896"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBF9A8F1-E253-4236-22F1-C2A1C223A78E" name="REL_REG_TARIFARIO">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>34562ABC-5DE0-01CC-78FF-46ADF08F4664</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F614CFD-E590-80A6-25DA-CE99DC851AE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB730983-F534-1428-8CD0-5862F0B1DDFA" name="REL_TIPOSUSC_TARIFARIO">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>1907A9E3-D6B5-ADC1-4129-901812A4BFEA</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A35C571D-202F-D28F-C597-4C3BD4FA5305"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

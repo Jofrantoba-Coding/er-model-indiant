@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="04D10FB0-82E9-0D7A-7616-B67E9CFC112B" name="TIPO_INTERACCION_PUBLICIDAD">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>D6A2EF44-62D6-386A-7798-7CD59487D8D8</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TIPO_INTERACCION_PUBLICIDAD" id="F70F1EE3-48E9-ACE5-7C45-EF6D2D309B82">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>239DD27F-DD65-2B2F-E116-2B8B03A4F1AA</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="A4377899-7108-2FE5-4F45-8AE55C0CC9AF">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>CN: CLICK NOMBRE PERFIL&lt;br/&gt;CI: CLICK INF CONTACTO&lt;br/&gt;CF: CLICK FOTO&lt;br/&gt;CG: CLICK GO&lt;br/&gt;CE: CLICK ENLACE&lt;br/&gt;&lt;br/&gt;</comment>
+<generatorID>3B10B24C-E330-FEC1-6787-56A4A548C6F1</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B758D24E-5586-5F00-7416-26E29821B654" name="TIPO_INTERACCION_PUBLICIDAD_PK">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>73FFDD87-F827-2D84-3A17-C2AB912A3828</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F70F1EE3-48E9-ACE5-7C45-EF6D2D309B82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,389 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1891F61E-30AA-AB58-46F0-14CE3AB88432" name="USUARIO_TURISTA">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-02 15:40:15 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<nameFixed>true</nameFixed>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CORREO_TURISTA" id="E4888C69-8EEC-E6DE-FD4D-C6B96B0AD0A6">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-09 18:58:05 UTC</createdTime>
+<generatorID>C38B034C-2AEF-E5B2-8030-18308254E2E6</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<referedAttribute>CCE2F839-D85C-CE5D-2DA5-D9947FB8E446</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="NOMBRE" id="854AC735-D07A-F0B8-FA52-4BBEAB0906C6">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-02 15:58:06 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="APELLIDOS" id="56D4AAAA-0ADE-6DD4-84E1-1D8A813D52AA">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-02 15:59:53 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="PAIS_NAC" id="E241CE04-D3F5-70B9-880C-994FD38E3C31">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-02 16:00:27 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="REGION_NAC" id="2B5AA0E7-AE9F-B35B-BE8B-82D5486B5947">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-02 16:01:36 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="LOCALIDAD_NAC" id="16B329E7-F5B0-3C51-8D65-97E5E546FC1B">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-02 16:03:55 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="FECHA_NAC" id="B0BC81D5-9F15-3A9F-2D87-7743CDFA48FF">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-02 16:07:09 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="GENERO" id="EBDCE495-345A-2081-1283-5A9C25C99D80">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-02 16:08:12 UTC</createdTime>
+<comment>H: HOMBRE&lt;br/&gt;M: MUJER</comment>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="FOTO_PERFIL" id="75B9B091-D1B3-8A98-7819-60709C304DD7">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-04 15:55:33 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="FOTO_PORTADA" id="42627657-F264-EB68-128C-621AC3D2B9B4">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-04 15:56:43 UTC</createdTime>
+<comment>FOTO PORTADA: SOLO PUEDE SER FOTO DE DESTINO O NEGOCIOS CONQUISTADOS.</comment>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_INTERES_1" id="720F197C-2201-0D19-2AAA-7C1F098F4F50">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-04 15:58:04 UTC</createdTime>
+<generatorID>418CE20F-53F0-1B3A-CADF-2BE950BCBBA8</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E79D5658-C66E-F589-D7F9-6ED8C23D9E70</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="NOMBRE_INTERES_1" id="78EF2E14-33DA-D851-BD61-BB491762D7CD">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-01 22:31:57 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="MODA_INTERES_1" id="090CAFFD-CA24-D26A-49D1-932D446FC6AE">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-01 22:32:56 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_INTERES_2" id="D2FD8566-2F67-3937-91BD-332383CDFC28">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-04 23:12:37 UTC</createdTime>
+<generatorID>AB7132D3-A41D-9077-5FD9-3EA971D77CA9</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E79D5658-C66E-F589-D7F9-6ED8C23D9E70</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="NOMBRE_INTERES_2" id="997B7F15-1127-8A90-20AE-55B99925BCF9">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-04 23:13:02 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="MODA_INTERES_2" id="004D68D1-4A04-AF22-B1B8-B2B350E66711">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-04 23:13:04 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_INTERES_3" id="65EF28E7-C39E-03DE-0142-450DF6125CFA">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-04 23:12:43 UTC</createdTime>
+<generatorID>27D543FE-D2EA-AF70-1CB1-8022676DE5F7</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E79D5658-C66E-F589-D7F9-6ED8C23D9E70</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="NOMBRE_INTERES_3" id="A85BDC25-6069-6464-5A46-7D879D8B352A">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-04 23:13:04 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="MODA_INTERES_3" id="C8BAA716-0201-88E0-3ED0-00FB8713EAD8">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-04 23:13:02 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="CANTIDAD_CONQUISTA" id="C44CB52A-F92D-16D6-EF4D-6C471557333E">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-04 23:18:23 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="CANTIDAD_COLONIA" id="0D81DBA3-B660-325E-9D83-45F65E493F07">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-04 23:18:41 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="EDAD" id="3FA255E4-9802-692F-9195-C79F425F25F4">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-14 17:43:01 UTC</createdTime>
+<comment>CALCULABLE</comment>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_RANGO_EDAD" id="D016FB00-5A20-C77E-2DF1-EAA0A8D83201">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-14 23:03:44 UTC</createdTime>
+<comment>R1: 0- 11&lt;br/&gt;R2: 12 - 18&lt;br/&gt;R3: 19 -25&lt;br/&gt;R4: 26 -30&lt;br/&gt;R5: 31-45&lt;br/&gt;R6: 46-60&lt;br/&gt;R7: 60 A +</comment>
+<generatorID>E03AEEE9-F937-2DF3-F6EA-09B58A9A79BA</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>CB54EA71-F371-1359-DEDD-D3845C616C15</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="50C27DBE-B2A2-2427-94A0-A3A517AFB8E3" name="USUARIO TURISTA PK">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-09 18:58:16 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>C38B034C-2AEF-E5B2-8030-18308254E2E6</newElementsIDs>
+<nameFixed>true</nameFixed>
+<usedAttributes>
+<attributeRef>E4888C69-8EEC-E6DE-FD4D-C6B96B0AD0A6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

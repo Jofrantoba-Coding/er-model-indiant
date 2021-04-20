@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE93C7AB-3B37-F858-3BAD-39ECC901E9D2" name="COLONIA_DESTINO">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>D1102560-3238-1AFA-B6AE-B69B1F298026</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_COLONIA_DESTINO" id="1ED0105F-058C-9D0C-DE72-0AAEE2E84256">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>A56C08AF-D0FD-111D-78EC-6B331190E4C3</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_DESTINO" id="CF9C4885-83BF-D633-8A22-6399451C4073">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>CA7E3C1F-D28B-DDC0-D3E3-0327FAB3B0E9</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6E32EDF-8387-6B02-C1EC-BEEB419A132F" referredColumn="E7186250-9473-252D-8581-04B13469632F"/>
+</associations>
+</Column>
+<Column name="ID_COLONIA" id="79CAD9CC-4161-7A6E-75F0-B31B122BAE4C">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>B461464E-7704-D5E5-B80A-049DAFD5942F</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D356164-8FCF-EC84-00F5-BC25255610DA" referredColumn="D8BA3325-E988-F399-9F95-E9FB55F60256"/>
+</associations>
+</Column>
+<Column name="NOMBRE_DESTINO" id="26BD6683-17F1-CA95-C0F9-8A3448C87BCE">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>D8EAFD39-5BAC-3A1E-B4B1-5C0E1B8D75D3</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISTANCIA_REFERENCIA" id="874B5C86-2458-9B5D-2EC7-A9FFB6FC5B16">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>E6B793E5-6BF3-1B12-C392-BEF71A6016E3</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,18,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9164BF81-40BA-AD36-40EE-776567A2612F" name="COLONIA_DESTINO_PK">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>77B7444A-8444-083B-B1F8-5F843009BA60</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1ED0105F-058C-9D0C-DE72-0AAEE2E84256"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47FC3A43-3603-7385-9C50-5F19D3504571" name="REL_COL_COLDEST">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>176CECB6-8947-4CA0-10B0-979EEFE1E120</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79CAD9CC-4161-7A6E-75F0-B31B122BAE4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D079B790-B001-A445-89D5-4BD9FCA93D25" name="REL_DEST_COLDEST">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>851C6BC8-222E-CAD8-D216-35BE752E35DB</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF9C4885-83BF-D633-8A22-6399451C4073"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

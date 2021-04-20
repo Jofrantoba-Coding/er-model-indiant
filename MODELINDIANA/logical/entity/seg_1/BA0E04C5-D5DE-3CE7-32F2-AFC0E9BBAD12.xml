@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="BA0E04C5-D5DE-3CE7-32F2-AFC0E9BBAD12" name="SESION_NEGOCIO">
+<createdBy>Raquel</createdBy>
+<createdTime>2016-03-28 17:06:45 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<nameFixed>true</nameFixed>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_SESION_NEGOCIO" id="590B3703-ADA8-0847-E24C-52368F4BBFD2">
+<createdBy>Raquel</createdBy>
+<createdTime>2016-03-28 17:07:17 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="FECHA_INICIO_SESION" id="8B505AE2-68EE-D0F5-8F41-D68808B50EAF">
+<createdBy>Raquel</createdBy>
+<createdTime>2016-03-28 17:08:20 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="FECHA_CIERRE_SESION" id="48CEAB3A-DE12-444E-987F-8A599EDB8A03">
+<createdBy>Raquel</createdBy>
+<createdTime>2016-03-28 17:08:37 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="CORREO_SOLICITANTE" id="5DE7D7B9-0E81-76EF-96E5-9C50464D11F3">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-04-01 19:27:25 UTC</createdTime>
+<generatorID>BE6E87F8-128E-2DF1-7FE7-97382AC82759</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<referedAttribute>C532AA8E-724E-4990-872F-5ACAE9E376D9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ESTADO" id="467E4BF1-7354-F44D-CEE7-3EE38E8DF0B9">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-14 18:12:51 UTC</createdTime>
+<comment>A: ACTIVA&lt;br/&gt;C: CERRADA</comment>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7D529B47-B00A-61DB-85AB-F8908A57285B" name="SESION_NEGOCIO PK">
+<createdBy>Raquel</createdBy>
+<createdTime>2016-03-28 17:09:13 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>590B3703-ADA8-0847-E24C-52368F4BBFD2</newElementsIDs>
+<nameFixed>true</nameFixed>
+<usedAttributes>
+<attributeRef>590B3703-ADA8-0847-E24C-52368F4BBFD2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

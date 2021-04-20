@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_AMISTAD_MSNAMIGO" directorySegmentName="seg_0" id="3A79B006-83A7-A915-E214-AD8FA163333A">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-01 20:48:33 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+<item key="3E01C8EF-0072-9CA0-E9ED-37E738EA38A4" value="true"/>
+</engineerTo>
+<sourcePk>42E1CC49-A918-8B63-B700-8461EB269263</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8A82CF94-9F20-F4AE-7AA8-23F2159FB902</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>89746C2B-5772-9176-0CBA-C50A82464866</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<nameFixed>true</nameFixed>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_TUR_INT_EMPATIA_NOTIFTUR" directorySegmentName="seg_1" id="D1A261D5-067C-8E83-0F00-2F3F56582947">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-03 16:02:23 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<sourcePk>AFF8515B-77AB-5C2D-AA57-0FE90EF5F2CB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>574F7E78-FD95-1B7D-9452-DCCDEFE33722</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>05E18015-4CB5-4B19-A57A-E251FFFF60F9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<nameFixed>true</nameFixed>
+</Relation>

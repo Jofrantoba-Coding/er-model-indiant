@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39219A22-91D4-A1CF-1967-CB5443B7743F" name="SESION_NEGOCIO">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>BA0E04C5-D5DE-3CE7-32F2-AFC0E9BBAD12</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SESION_NEGOCIO" id="D9445034-5C19-13B6-722B-06704B58D138">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>590B3703-ADA8-0847-E24C-52368F4BBFD2</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INICIO_SESION" id="E732E19A-7B69-7AE7-5F2C-1104298C360C">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>8B505AE2-68EE-D0F5-8F41-D68808B50EAF</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CIERRE_SESION" id="E90CDF74-7D05-7E15-6E26-2835D1B7EC8F">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>48CEAB3A-DE12-444E-987F-8A599EDB8A03</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO_SOLICITANTE" id="0769F53F-95BA-140B-F3EE-69E8D3DCB94A">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>5DE7D7B9-0E81-76EF-96E5-9C50464D11F3</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71982011-DA02-51D1-D8FA-805824DF6E96" referredColumn="4DD59165-D011-5557-D4F7-7459E957131D"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="75AEE746-8420-B51A-3AEA-E8CB88BDF374">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>A: ACTIVA&lt;br/&gt;C: CERRADA</comment>
+<generatorID>467E4BF1-7354-F44D-CEE7-3EE38E8DF0B9</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLATAFORMA_SOCIAL" id="5C930863-0F08-9727-F384-BC68D810AB55">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>FACEBOOK&lt;br/&gt;TWITTER&lt;br/&gt;GOOGLEPLUS</comment>
+<generatorID>6570893A-699D-840C-5ACB-A40141648004</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DD69713-723B-EFB4-513E-055A4368B979" referredColumn="41162F8D-E3C4-8A4D-D3FD-6A46C4567FC3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6975871D-4E59-2AF5-3E92-BB15FA8870A7" name="SESION_NEGOCIO_PK">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>7D529B47-B00A-61DB-85AB-F8908A57285B</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9445034-5C19-13B6-722B-06704B58D138"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0346C9CC-DC0C-2117-B29C-8E5F3C272592" name="REL_CTANEG_SESION">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>BE6E87F8-128E-2DF1-7FE7-97382AC82759</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0769F53F-95BA-140B-F3EE-69E8D3DCB94A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F9BEFE6-59E9-6794-24BE-657D8F6B7AA8" name="Relation_229">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>A2E3A128-8623-103F-58D6-1BB0006B689D</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C930863-0F08-9727-F384-BC68D810AB55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

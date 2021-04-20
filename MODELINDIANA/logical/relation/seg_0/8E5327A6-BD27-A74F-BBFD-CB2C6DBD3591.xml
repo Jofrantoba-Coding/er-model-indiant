@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_COMPARTIDA_NOTIF" directorySegmentName="seg_0" id="8E5327A6-BD27-A74F-BBFD-CB2C6DBD3591">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-11 21:43:18 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<sourcePk>C958A091-D9AC-13FA-2CA3-F1CD722EFE00</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3AF9A94F-2CC7-8D99-6786-372A49A897D3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7E1BBC97-E3B7-3C58-2369-7C3838CA4F0A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<nameFixed>true</nameFixed>
+</Relation>

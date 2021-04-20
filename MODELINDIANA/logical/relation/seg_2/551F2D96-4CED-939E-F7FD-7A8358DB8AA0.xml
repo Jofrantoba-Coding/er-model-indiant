@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_CHATMIEM_PARTICIPANTE_CHAT" directorySegmentName="seg_2" id="551F2D96-4CED-939E-F7FD-7A8358DB8AA0">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-09 18:05:07 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<sourcePk>B36377CF-482C-FFAD-F4B5-EE70666EC517</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5DA5D9C9-CC10-FBB7-9BDC-241C68DE4F1B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>347D1599-8969-A767-B62E-F95234F7B898</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<nameFixed>true</nameFixed>
+</Relation>

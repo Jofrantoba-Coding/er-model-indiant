@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2D58F99D-28B5-020D-73CD-F0013368E5BC" name="LOCALIDAD">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-05 22:36:38 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<nameFixed>true</nameFixed>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_LOCALIDAD" id="518E546C-E208-EEAD-9845-91E37474706F">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-08 23:25:03 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="NOMBRE" id="A8A5E6DC-A3BE-F3FE-85E8-F27E2036FC98">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-05 22:37:04 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_REGION" id="7D344F87-0191-DFE5-E025-4D0958373C0D">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-08 23:24:14 UTC</createdTime>
+<generatorID>F1C5A28B-F190-A303-C2F1-CF72713BF8AA</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<referedAttribute>089D4D0C-E171-D1F6-D6A4-7531854CA345</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CDDB5CE2-D626-C062-98EB-9B01C30EF7A6" name="PK_LOCALIDAD">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-08 22:45:47 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>518E546C-E208-EEAD-9845-91E37474706F</newElementsIDs>
+<nameFixed>true</nameFixed>
+<usedAttributes>
+<attributeRef>518E546C-E208-EEAD-9845-91E37474706F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="71A716F4-731D-839E-77A3-27958A43644A" name="RED_SOCIAL">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-05 22:10:14 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<nameFixed>true</nameFixed>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PLATAFORMA_SOCIAL" id="D0EE02CD-ED93-2457-E07F-83780C2119ED">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-05 22:32:14 UTC</createdTime>
+<comment>FACEBOOK&lt;br/&gt;TWITTER&lt;br/&gt;GOOGLEPLUS</comment>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="NAME_APP" id="9E024468-A468-6530-FE4A-D58D470E903C">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-08 23:28:49 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="APP_SECRET" id="C36C90E1-781B-CD56-82AA-D67D4C4651FE">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-08 23:41:19 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6D267BFB-3CF7-3CB4-3C5A-7FC7ECA09126" name="RED_SOCIAL PK">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-08 23:48:08 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>D0EE02CD-ED93-2457-E07F-83780C2119ED</newElementsIDs>
+<nameFixed>true</nameFixed>
+<usedAttributes>
+<attributeRef>D0EE02CD-ED93-2457-E07F-83780C2119ED</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

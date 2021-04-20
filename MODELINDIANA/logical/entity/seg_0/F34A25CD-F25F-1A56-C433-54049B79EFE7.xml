@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F34A25CD-F25F-1A56-C433-54049B79EFE7" name="ESTADO_CUENTA">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-05 17:50:25 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<nameFixed>true</nameFixed>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ESTADO_CUENTA" id="577395AC-E67B-CCEE-C4DC-E5E721E408BA">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-08 22:28:05 UTC</createdTime>
+<comment>A: ACTIVADO&lt;br/&gt;P: PENDIENTE DE ACTIVACION&lt;br/&gt;D: DESACTIVADO&lt;br/&gt;E: ELIMINAR</comment>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="DESCRIPCION" id="4CCCB28A-60E5-7CD2-E56E-89B4D3418937">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-05 22:40:42 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="384FEBA9-0123-4DC1-912C-45F1D2247485" name="ESTADO_CUENTA_ADMIN PK">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-08 22:28:32 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>577395AC-E67B-CCEE-C4DC-E5E721E408BA</newElementsIDs>
+<nameFixed>true</nameFixed>
+<usedAttributes>
+<attributeRef>577395AC-E67B-CCEE-C4DC-E5E721E408BA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

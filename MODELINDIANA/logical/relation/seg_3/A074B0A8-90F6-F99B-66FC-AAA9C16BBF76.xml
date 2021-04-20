@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_CTANEG_ENREDSOCIAL" directorySegmentName="seg_3" id="A074B0A8-90F6-F99B-66FC-AAA9C16BBF76">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-14 16:39:59 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<sourcePk>1C9FDDE4-37CE-D480-C24B-06E2FFC4A603</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>888B9C82-7A04-A360-3B7A-5A9A4844B89D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8E61355D-CC3A-7F68-01EA-6D2F84FD57AE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<nameFixed>true</nameFixed>
+</Relation>

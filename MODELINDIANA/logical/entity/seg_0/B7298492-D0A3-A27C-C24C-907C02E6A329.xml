@@ -1,0 +1,220 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B7298492-D0A3-A27C-C24C-907C02E6A329" name="OFERTA_NEGOCIO">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-04 22:49:20 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<nameFixed>true</nameFixed>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_OFERTA" id="0A785396-D91E-59CF-C349-39F9504D68DA">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-10 16:38:17 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="NOMBRE_NEGOCIO" id="7B683A4C-0A97-8274-4E03-FD4CA846486A">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-08 22:08:29 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ETIQUETA" id="12F52FF6-C8F7-C473-EF31-F37F006B8F4C">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-14 18:16:17 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="DESCRIPCION" id="A1F31C94-B145-0A28-F4D7-61F414DCE19D">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-08 21:47:20 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="FOTO_OFERTA" id="B32BE574-0BBF-804E-1691-2770656B935A">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-08 21:47:57 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3000 CHAR</dataTypeSize>
+<ownDataTypeParameters>3000 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="CANTIDAD_OFERTA" id="B02A54F7-8B7E-ECFC-E383-C41FDCA9F1A5">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-08 21:51:30 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="CANTIDAD_OFERTA_RECLAMADAS" id="4C44A80D-AE5A-5367-4222-6FAC5799E474">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-08 22:06:26 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="FECHA_PLANEACION" id="EC6B1527-B59D-1892-9EDD-699B839EA81D">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-08 21:52:03 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="FECHA_LANZAMIENTO" id="BD547A7D-C51C-5D54-937B-114D439078BD">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-08 21:52:39 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="FECHA_VENCIMIENTO" id="4C611A9D-D798-7551-2C95-D00BCD4A26EC">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-08 21:52:52 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ESTADO_OFERTA" id="8D10380A-6A75-78F6-CC1D-116C2C9AC26A">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-08 21:53:33 UTC</createdTime>
+<comment>P: PLANEADA&lt;br/&gt;A: ACTIVA&lt;br/&gt;V: VENCIDA&lt;br/&gt;C: CANCELADA</comment>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="FECHA_BAJA" id="77FAC5B5-87D8-A861-52B3-D2F846F44B37">
+<createdBy>Raquel</createdBy>
+<createdTime>2016-03-29 00:58:02 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_NEGOCIO_OFERTA" id="ADEED4CF-34FA-9C82-6AB5-14F914E5E31D">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-04-01 19:20:29 UTC</createdTime>
+<generatorID>537B516C-3E22-531F-0B9A-B6F996494C8E</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<referedAttribute>C90FE764-ECD4-F01A-17B5-CE5139CD081B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4C479CB7-7906-CA2C-E353-91BA7FA43AE0" name="OFERTA_NEGOCIO PK">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-09 16:30:15 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>0A785396-D91E-59CF-C349-39F9504D68DA</newElementsIDs>
+<nameFixed>true</nameFixed>
+<usedAttributes>
+<attributeRef>0A785396-D91E-59CF-C349-39F9504D68DA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C0AB5606-9DFD-EEDC-5494-0843E7DAC816" name="AUTENTICACION_OAUTH">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-02 16:37:26 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+<item key="3E01C8EF-0072-9CA0-E9ED-37E738EA38A4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<nameFixed>true</nameFixed>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TOKEN" id="684341F8-51A5-40CD-906C-264FD289CF25">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-09 19:27:33 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+<item key="3E01C8EF-0072-9CA0-E9ED-37E738EA38A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3000 CHAR</dataTypeSize>
+<ownDataTypeParameters>3000 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="PLATAFORMA_SOCIAL" id="7D6CA903-AE2F-9754-BDE3-D2BAF83E2854">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-09 19:28:10 UTC</createdTime>
+<comment>FACEBOOK&lt;br/&gt;TWITTER&lt;br/&gt;GOOGLEPLUS</comment>
+<generatorID>84ED0384-CDC5-2667-4969-BB0E903D5D49</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+<item key="3E01C8EF-0072-9CA0-E9ED-37E738EA38A4" value="true"/>
+</engineerTo>
+<referedAttribute>D0EE02CD-ED93-2457-E07F-83780C2119ED</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="FECHA" id="AE03E02A-11C3-6B87-E412-0B5E1C40968D">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-09 19:15:50 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+<item key="3E01C8EF-0072-9CA0-E9ED-37E738EA38A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="CORREO_TURISTA" id="1C32BA28-8255-420C-00D9-0DAD29A2AFD9">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-10 15:41:53 UTC</createdTime>
+<generatorID>BD9D7F0C-70A8-C293-6AC4-FFA27D0B97EE</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+<item key="3E01C8EF-0072-9CA0-E9ED-37E738EA38A4" value="true"/>
+</engineerTo>
+<referedAttribute>CCE2F839-D85C-CE5D-2DA5-D9947FB8E446</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DD839F8F-3CBA-5A85-A37B-B35AAE07E2AB" name="AUTENTICACION_OAUTH PK">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-09 18:58:16 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+<item key="3E01C8EF-0072-9CA0-E9ED-37E738EA38A4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>684341F8-51A5-40CD-906C-264FD289CF25</newElementsIDs>
+<nameFixed>true</nameFixed>
+<usedAttributes>
+<attributeRef>684341F8-51A5-40CD-906C-264FD289CF25</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

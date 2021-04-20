@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_TIPOMOV_NOTIFMIEM" directorySegmentName="seg_0" id="D2FEEFB9-D565-5C51-7767-8A3D31903E3B">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-06 00:07:17 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<sourcePk>8E791343-6861-327E-D641-412D92D1043A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>818977AA-4271-090B-8857-AC14AB45B784</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D0453310-16DB-C05F-248B-347B6E3D641E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<nameFixed>true</nameFixed>
+</Relation>

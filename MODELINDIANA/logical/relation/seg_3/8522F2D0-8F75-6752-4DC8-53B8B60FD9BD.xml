@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_PAIS_TARIFARIO" directorySegmentName="seg_3" id="8522F2D0-8F75-6752-4DC8-53B8B60FD9BD">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-14 23:22:57 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<sourcePk>34660F93-A5CC-E7FB-7FB5-722C90E2C971</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FB459939-00B2-0B2B-F0FF-21F6EB3549B9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>80504703-411C-EF9F-8CCC-01CDC57A12C3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<nameFixed>true</nameFixed>
+</Relation>

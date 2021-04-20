@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_NOTI_NOTIF" directorySegmentName="seg_1" id="F4E782F6-DCA3-C003-CF73-ED2E7C86DE98">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-01 16:09:32 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<sourcePk>EA29C145-2173-1696-A589-BF3809962A27</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0D3CE258-9C8B-2900-554A-77E9A6ABD4BC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7E1BBC97-E3B7-3C58-2369-7C3838CA4F0A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<nameFixed>true</nameFixed>
+</Relation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_SOLCTANEG_CTANEG" directorySegmentName="seg_3" id="ED2A1132-EF6A-E0B6-5E6B-4FF91BADADCF">
+<createdBy>Raquel</createdBy>
+<createdTime>2016-04-15 17:54:49 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<sourcePk>59ADCAA8-23D8-139A-0FF4-866D40D95F57</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>20381793-F940-57EC-AC9F-92952C812D7F</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>888B9C82-7A04-A360-3B7A-5A9A4844B89D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D86FF6D3-3628-E328-6B3C-B43E8323B17D" name="CUENTA_USUARIO_TURISTA">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>6B6DA6A1-DFAD-27C2-CBFA-8FCA828D64BC</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CORREO_TURISTA" id="9E0A64EF-91E6-6247-32DC-374E05396044">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>CCE2F839-D85C-CE5D-2DA5-D9947FB8E446</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLAVE" id="FE050367-B508-187D-7967-191683D61664">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>01ECAE3A-CB62-ADCE-5656-C4F853EFB1AD</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ESTADO_CUENTA" id="B3527E36-4075-5F41-5E6F-61F9C75D991D">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>A: ACTIVADO&lt;br/&gt;P: PENDIENTE DE ACTIVACION&lt;br/&gt;D: DESACTIVADO&lt;br/&gt;E: ELIMINADO</comment>
+<generatorID>84F13567-08D5-D48E-1579-E67AC4DC2C59</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="871CC48A-EA0D-EA36-ECAE-B25C60D0CFF6" referredColumn="58BF4126-9EA2-4409-760E-58B4062879F8"/>
+</associations>
+</Column>
+<Column name="FECHA_CREACION" id="56499EAC-26A5-16EE-DD96-84076E94CBCA">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>ABBD2E56-5B80-677F-7B53-F548ABE46FDF</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO" id="1FF55CC3-D05A-E831-8230-00BDED110BE5">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>R: REGISTRO&lt;br/&gt;O: OAUTH</comment>
+<generatorID>9EE17B28-ADE8-6252-5834-5E1D74A12B6E</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="976B952E-065A-84B1-0CA3-6C5D1CDD845D" name="CUENTA_USUARIO_TURISTA_PK">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>3F26EC1B-FA06-B53B-0754-602F5AA27C72</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E0A64EF-91E6-6247-32DC-374E05396044"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58E885FE-EADE-2AFF-7C8E-D9CDBB5AE77F" name="REL_ESTCTA_CTAUSUTUR">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>5B887263-EF1A-601A-D7E8-DF60BEBF509F</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3527E36-4075-5F41-5E6F-61F9C75D991D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

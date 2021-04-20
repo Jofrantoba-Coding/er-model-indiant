@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_DEST_COLDEST" directorySegmentName="seg_0" id="851C6BC8-222E-CAD8-D216-35BE752E35DB">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-04 22:11:16 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<sourcePk>DD2EC609-1845-5310-2481-49AFD560EC56</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>69BED991-D9D7-A41D-9FB6-C0E41ECD39FF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D1102560-3238-1AFA-B6AE-B69B1F298026</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<nameFixed>true</nameFixed>
+</Relation>

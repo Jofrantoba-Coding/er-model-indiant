@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="59A6F69C-D797-526B-6BDB-64506EE1106B" name="VISITA_PERFIL_DESTINO">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>1C077AAB-7E3A-D419-27BA-5ECB51268EFB</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_VISITA_PEFIL_DESTINO" id="6F9D65A8-55EC-2B8E-3ECF-7F3DECAAD940">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>9C9540E8-0ABC-35DC-4D04-F407D2AF00D7</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_DESTINO" id="8BD6158A-4E65-8A48-3EA7-D3D091C76F22">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>56136B96-EA4A-8484-E24A-4BFB0CAE0ADD</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F313BD9D-5E22-554A-71CE-70B711294FFF" referredColumn="E7186250-9473-252D-8581-04B13469632F"/>
+</associations>
+</Column>
+<Column name="CORREO_TURISTA" id="02383C52-36CD-22DB-32EA-9344FFF55FC1">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>F2BAAB30-4658-F5FB-708B-014ACB32681E</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A701FF09-309A-05C8-7DDF-A56513B1C98F" referredColumn="4D0CF4C5-E17B-5591-3A47-89DDBA4799F0"/>
+</associations>
+</Column>
+<Column name="FECHA" id="59B8178E-C5A4-9EB2-277D-7F41FE02E714">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>7BBEB25B-C735-43A2-05F2-6550CB6051DD</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="60D22777-907F-EB39-C925-0A59BC2BCF82" name="VISITA_PERFIL_DESTINO_PK">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>CAF4B5D9-B7DB-2EB5-57C5-A6C871C45C72</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F9D65A8-55EC-2B8E-3ECF-7F3DECAAD940"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2556734-168B-7758-40E6-2D01007F280C" name="REL_DEST_VISITADO_PDEST">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>51E7A8D7-9DB8-238E-6313-A38D8E3E4F39</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BD6158A-4E65-8A48-3EA7-D3D091C76F22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C00852E-AE5E-D35F-F509-2502D2450872" name="REL_TUR_VISITA_PDEST">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>F33EF1E8-3F88-8D04-B1F7-B51E8A2D1AB5</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02383C52-36CD-22DB-32EA-9344FFF55FC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

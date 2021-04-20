@@ -1,0 +1,794 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="42635F65-1775-D8F4-5569-C5536BA443E7" name="NOTIFICACION_TURISTA">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>05E18015-4CB5-4B19-A57A-E251FFFF60F9</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_NOTIFIACION_TURISTA" id="81E437CA-79AD-94C4-6453-0102BC77EB7E">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>025F832C-DE88-71D8-AD5D-B6B2BF7A0FF6</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_NOTIFICACION" id="6B423505-1A9A-BD02-3714-E93AE2E8A74A">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>2AC1FCFB-65C8-C2EE-C4F3-D48AD5E2BA32</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FFF8A90D-555D-7461-C93B-64906A3B3525" referredColumn="586ACD90-7FAD-8937-AE46-146887D60B9B"/>
+</associations>
+</Column>
+<Column name="CORREO_TURISTA_RECIBE_NOTIFICACION" id="6A4E8AB9-70C8-63C6-C3C8-3F4146D12FBA">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>05C432FF-2353-2048-4927-9DEAB18BEA94</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4047565C-FB68-64FE-5E79-BD4DA5B9A611" referredColumn="4D0CF4C5-E17B-5591-3A47-89DDBA4799F0"/>
+</associations>
+</Column>
+<Column name="ID_TIPO_NOTIFICACION" id="B3FA93CA-940D-B443-C669-6FF9C408150A">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>ESA: ENVIO SOLICITUD AMISTAD&lt;br/&gt;SAA: SOLICITUD AMISTAD ACEPTADA&lt;br/&gt;CMC: COMENTARIO CONQUISTA&lt;br/&gt;CPC: COMPARTIR CONQUISTA&lt;br/&gt;DCO: DIVULGAR CONQUISTA&lt;br/&gt;CCR:COMENTARIO CONQUISTA RELACIONADO&lt;br/&gt;DCR: DIVULGACION CONQUISTA RELACIONADO&lt;br/&gt;CMN: COMENTARIO NOVEDAD&lt;br/&gt;CPN: COMPARTIR NOVEDAD&lt;br/&gt;DNO: DIVULGAR NOVEDAD&lt;br/&gt;CNR: COMENTARIO NOVEDAD RELACIONADA&lt;br/&gt;DNR:DIVULGACION NOVEDAD RELACIONA&lt;br/&gt;UCO: UNIRSE A COLONIA&lt;br/&gt;ACO: ABANDONAR COLONIA&lt;br/&gt;SCO: SUGERIR COLONIA&lt;br/&gt;SIM: SUGERIR INTERES A MIEMBRO&lt;br/&gt;GEI: GENERAR EMPATIA INTERES&lt;br/&gt;CNQ: CONQUISTA&lt;br/&gt;UQC: USUARIO QUIERE CONQUISTAR&lt;br/&gt;OFN: OFERTA NEGOCIO&lt;br/&gt;CND: CREACION NUEVO DESTINO&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</comment>
+<generatorID>61108C88-2E2E-D0FF-0FC8-08C510F999F6</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7AADE9D5-6A57-0D47-5F3B-BA555B30DEE5" referredColumn="2018BDCA-89A4-B6D7-E000-0DF71B48FBEB"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="9F761B17-A901-1038-0A43-03270DD9BD74">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>V: VISTO&lt;br/&gt;N: NO VISTO&lt;br/&gt;</comment>
+<generatorID>A4FB4D54-5112-4B5C-2ABA-C54FE1AE7A89</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO_TURISTA_GENERA_NOTIFICACION" id="96D068B1-3C2A-0E6E-932E-7B0090DF4A21">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>4A07C149-E9C1-8515-37FF-9A3463D382FB</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4382130B-9C4C-D444-1B6D-ADCCC098FC32" referredColumn="4D0CF4C5-E17B-5591-3A47-89DDBA4799F0"/>
+</associations>
+</Column>
+<Column name="NOMBRE_TURISTA_NEGOCIO_GENERA_NOTIFICACION" id="FB3B0DA8-377E-B396-77F2-C8A71945DEDB">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>2A0BF7DE-AD3B-2525-8E72-CC0BF1BF2602</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO_TURISTA_GENERA_NOTIFICACION" id="6B89783B-3C38-977E-A1D2-F9D2FAE32413">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>01A28ABD-5127-9CFC-A993-5A5872371B5D</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FOTO_PERFIL_TURISTA_NEGOCIO_GENERA_NOTIFICACION" id="A9CD53BD-49AC-2E6A-5FD1-141DFD4B2ACA">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>9435EDF8-2768-B98B-8305-9D0381AA03CF</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3000 CHAR</dataTypeSize>
+<ownDataTypeParameters>3000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_NOTICIA" id="500D168B-42E0-51F4-B3AA-82AB70EC9181">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>7F164216-0FCB-0224-AF71-973843052D97</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B52431B-4638-C7DD-736E-739873421B26" referredColumn="B5CD9658-67EB-382A-7AAD-06D7B37928EF"/>
+</associations>
+</Column>
+<Column name="ID_NOVEDAD" id="2E693358-1256-24FF-D414-C001E8F41FFD">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>138DF2E0-31E5-342E-13C3-C8578054A631</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FEE92EFB-9AD0-DCA3-9808-2F2266186892" referredColumn="D4E6101B-0B97-DD32-11D3-A05167C24F63"/>
+</associations>
+</Column>
+<Column name="ID_COLONIA" id="4F12C95F-E319-DE59-E070-6F5F1E41D643">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>BB163EE4-B3A3-D262-B4AE-C8CA1CD0C367</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C86CE261-BFC1-C231-5819-EEC81AED8F88" referredColumn="D8BA3325-E988-F399-9F95-E9FB55F60256"/>
+</associations>
+</Column>
+<Column name="NOMBRE_COLONIA" id="2C98E0AD-3DFB-E985-A0BC-FDD755DFACE7">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>5B651CA3-3836-0679-41E8-2C09A4732705</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_DIVULGACION_NOTICIA" id="F4674CEE-ED47-D855-861A-331BE66B33FE">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>0B53955F-7C72-0CAA-FFF6-7C4049CE2D34</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BBD8401E-6FCB-AF05-8FBA-F5CAC61E5446" referredColumn="4A7CD720-BBB9-1FEB-5E71-D821D9629D15"/>
+</associations>
+</Column>
+<Column name="ID_NOTICIA_COMPARTIDA" id="A56D7E7E-0D3A-A385-311B-7F4F14129902">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>3EFED496-A3B3-096C-9F3C-3ED21946EF3E</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="182EB3B2-A45B-9F8A-036A-41661B5E45D6" referredColumn="415B1C6B-F372-247F-7E52-84BE2601D72C"/>
+</associations>
+</Column>
+<Column name="ID_SOLICITUD_AMISTAD" id="13CCC351-D3DF-C04B-B2E3-E9409B3BB301">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>A6DFC99A-99A7-8612-35D4-49520E08F6A9</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77BB7AA1-1DB5-9C45-A91E-E1329233F79A" referredColumn="01DAE9F3-06CB-24A3-4F71-4BEEE2511618"/>
+</associations>
+</Column>
+<Column name="ID_COMENTARIO_NOTICIA" id="F6C17557-4C30-6031-6413-D15E1791F03E">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>AF7690D8-2F15-21E0-CEF5-CE2A578A0A4B</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB42239A-9C3C-9D9D-37A2-98C01E700432" referredColumn="1B3C7330-0E25-75B0-2AE7-720002409701"/>
+</associations>
+</Column>
+<Column name="CORREO_TURISTA_PUBLICA" id="697367AB-BDDF-2C1F-CD36-5C3BC611978C">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>CORREO DEL USUARIO_ TURISTA QUE HA PUBLICADO UNA NOVEDAD O CONQUISTA. CUANDO VARIOS USUARIOS_TURISTAS HAN COMENTADO LA NOVEDAD O CONQUISTA (NOTICIA) SE HARÁ REFERENCIA A ESTE COMO GENERADOR DE LA NOTICIA EN LAS NOTIFICACIONES LANZADAS.&lt;br/&gt;&lt;br/&gt;REF: 86.- Informe de Diagramas de Colaboración y Secuencia DCS_CUS_VER_NOTIFICACION_TURISTA&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</comment>
+<generatorID>BA940972-0B39-EA95-F9A5-6FA98FE9A082</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F930BD1F-97ED-4894-389D-257CBDFE2AC8" referredColumn="4D0CF4C5-E17B-5591-3A47-89DDBA4799F0"/>
+</associations>
+</Column>
+<Column name="NOMBRE_TURISTA_PUBLICA" id="4DB1B388-F2F7-44EE-1FC2-54308FB73EF5">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>DB31A233-D0CD-D45C-884E-812A46B25804</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO_TURISTA_PUBLICA" id="1CBBFEF4-4253-90E8-1C43-6192D1174429">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>470242D3-B71F-0D81-32B6-C277D198AD4E</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CONQUISTA" id="6F0E48DE-58D0-1040-986D-065EABA6BCCB">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>9071F83A-493C-2A71-8EAB-62BDE3F1E4E3</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD81AF3F-1A41-F61D-0B19-5CAA6B18F2CB" referredColumn="2A451989-42BD-830C-3E5E-604549208815"/>
+</associations>
+</Column>
+<Column name="ID_DESTINO_CONQUISTADO" id="1AA1CA0F-8974-AA51-AEBE-5C79E0D31B0E">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>E6DC135F-40D6-624F-D8C1-E3AC09801B2B</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0049A83A-5E5B-C278-AAFA-C06A7D0A4F34" referredColumn="E7186250-9473-252D-8581-04B13469632F"/>
+</associations>
+</Column>
+<Column name="NOMBRE_DESTINO_NEGOCIO_CONQUISTADO" id="DF271D19-91AF-999F-C245-A284DEB30A4D">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>5459925F-AF2F-66F6-F900-2B512F268DEA</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_NEGOCIO_CONQUISTADO" id="DF86E81A-05F1-6FEC-69CD-9BF20AF0E62E">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>1B103D17-9B9C-303C-D39C-C6A2178E8273</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_OFERTA" id="5D2EAC3F-87AB-DB98-3820-FCD05CEF1711">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>CED4C551-C84C-2B42-38D3-23D55E28D86B</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15D35AC7-8DF2-45A3-8AC7-B6739593F215" referredColumn="912A5183-ED3E-65D9-77E0-1C39D616B053"/>
+</associations>
+</Column>
+<Column name="ID_TURISTA_INTERES_EMPATIA" id="FF30F29F-2717-0BFF-F622-6BAFB3C1D2FF">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>1E652B7D-2A2D-4BEB-C1C5-A0B0B218D12B</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6DDC1FF6-3CD3-9F37-50EA-6A5282E02FA1" referredColumn="06C888FD-2F21-5FDC-DCFA-B5F5003E3C6B"/>
+</associations>
+</Column>
+<Column name="ID_INTERES" id="53BB017E-F645-9514-C8D9-5F85D857240B">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>0A214236-CCAA-4BA9-1CDC-975B2568315D</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="409A29EA-1B90-0929-4B13-14C0AAF1DF7D" referredColumn="E4D1CE9C-5B02-2101-31B9-9159B6A49C7F"/>
+</associations>
+</Column>
+<Column name="NOMBRE_INTERES" id="3D373B3C-63DC-21B2-DA6D-2A94CDEA6FE6">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>1F42FBBA-40E4-1FDD-4B28-96C7C607BD5B</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_SUGERENCIA_COLONIA" id="CC2AA02B-9BA9-5AD9-2C4B-7DFFE8B19D20">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>AAED59E8-F27C-C454-DAC0-35FC7D21E5FA</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70F9B930-9251-6A78-F734-115DC0CA2165" referredColumn="AD099B49-6F39-432A-C703-66F97AC21E5A"/>
+</associations>
+</Column>
+<Column name="MENSAJE_NOTIFICACION" id="1200EEA4-71C0-18DC-6C77-4BB68B666E32">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>0C423075-3393-C1EF-8845-404108DAD86B</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_NEGOCIO_CONQUISTADO" id="2CF8B644-6AE5-A2CD-6437-194EF2433DF9">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>CEE36E5A-2BC3-C057-1D53-792978053CCE</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2EBE3A46-AED9-2B6C-5F1D-8CACF24CC0C6" referredColumn="B392B137-C7CB-944F-C7F0-E9E201939D90"/>
+</associations>
+</Column>
+<Column name="ID_NEGOCIO_GENERA_NOTIFICACION" id="24319E3A-3075-9AA5-1603-D2130099D55D">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>CC374C48-7403-1A6E-2D42-3FB809A20C90</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75E00BA1-AB1A-1CBE-CEAE-3DADF84F1854" referredColumn="B392B137-C7CB-944F-C7F0-E9E201939D90"/>
+</associations>
+</Column>
+<Column name="ID_NOTIFICA_MIEMBRO" id="B1928437-3E84-A699-903A-42778C84DA85">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>775BACA4-325B-3F4F-7027-60D1C03021B2</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3DCE4DB3-C739-C149-4572-25F45505D822" referredColumn="719CEE81-262C-2CC1-0FE8-D1C9ADAE15B5"/>
+</associations>
+</Column>
+<Column name="ID_NOTIFICA_MIEMBRO1" id="9E98B38D-5112-BC9B-E0D5-555DDC0B30EC">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>F227BCFC-66DF-2EB5-024E-211C53CB1B1E</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8E5B79B-A6D9-7F5E-D7BC-51A521998161" referredColumn="719CEE81-262C-2CC1-0FE8-D1C9ADAE15B5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E2A98E08-30C9-4FDA-9E35-DA83D4D439ED" name="NOTIFICACION_USUARIO_TURISTA_PK">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>A6A01158-7F30-D351-C6C8-67CECC2559BF</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81E437CA-79AD-94C4-6453-0102BC77EB7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0752AA13-33DD-3228-625B-11C2A811B05B" name="REL_COL_NOTIF_TUR">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>27D8EA7C-98ED-D771-2CFB-802F74E962FA</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F12C95F-E319-DE59-E070-6F5F1E41D643"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C90C74F-D363-AC58-04AC-BC091363E6B8" name="REL_COMENTARIO_NOTIFTUR">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>241F4672-9ECC-B3A8-3D57-45043B88DB35</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6C17557-4C30-6031-6413-D15E1791F03E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F763F217-4902-0A4A-42F2-B4784F68EB79" name="REL_CONQ_NOTIFTUR">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>397639D0-396F-74A4-B3EA-A85A45B41339</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F0E48DE-58D0-1040-986D-065EABA6BCCB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5C2E9C4-867F-B68B-E47C-93F523304EA5" name="REL_DEST_CONQ_NOTIFTUR">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>6480328C-422B-2DDA-B46D-F625E81718FA</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AA1CA0F-8974-AA51-AEBE-5C79E0D31B0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5380A6AB-EE59-57DD-96C3-2BD9816903E5" name="REL_DIVULGACION_NOTIFTUR">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>3BC12DFC-1F99-AA18-98D0-099AC48BE6A0</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4674CEE-ED47-D855-861A-331BE66B33FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1A3346C-FCCC-865E-FBC1-1336FE9355F9" name="REL_INT_NOTIFTUR">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>D01F2D1F-1BB1-0035-EDB4-962AE47E2F6E</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53BB017E-F645-9514-C8D9-5F85D857240B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33A99889-5E49-C92A-7CC9-C3B0DC657E2C" name="REL_NEG_CONQ_NOTIFTUR">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>9996109F-FB78-CAE2-ED3B-20A4E8EFBF86</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CF8B644-6AE5-A2CD-6437-194EF2433DF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F6DA0E0-3F16-D402-DD8C-F428340C98ED" name="REL_NEG_GENERA_NOTIFTUR">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>F9DE9538-0692-4230-79E8-76F07633C837</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24319E3A-3075-9AA5-1603-D2130099D55D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F12BA54-763D-C780-9281-6F3D37D44A0F" name="REL_NOTIFMIEMB_NOTIFTUR">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>285601A2-92B9-4701-1F33-A661F4833744</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1928437-3E84-A699-903A-42778C84DA85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E69A188-486E-1BCE-5E5B-84F3D8D89836" name="REL_NOTIF_NOTIFTUR">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>18511AE2-C4B6-0A62-9328-15DE187C6253</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B423505-1A9A-BD02-3714-E93AE2E8A74A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4BBBC92E-8EDC-DEBF-17A8-ECBBE34FD060" name="REL_NOTIF_NOTIFTURv1">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>0519DC47-AB89-635E-35B0-6D0A630BCEAD</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A56D7E7E-0D3A-A385-311B-7F4F14129902"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="444E8BCE-F2AB-FE60-FF0D-80A48E14B4BE" name="REL_NOTI_NOTIFTUR">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>05BFEDE6-FA9E-C684-7F74-01952D347E32</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="500D168B-42E0-51F4-B3AA-82AB70EC9181"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="961EF67E-81C6-23CD-6711-C12FE4DA18D2" name="REL_NOV_NOTIFTUR">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>4914D97A-DE1A-AD9C-72B6-D5A7B41DB6FE</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E693358-1256-24FF-D414-C001E8F41FFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3421C0F4-6965-59D1-BB09-3D53C84BA42B" name="REL_OFE_NOTIFTUR">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>BFB29DF5-779A-72F2-6B99-BE12B2CC46B9</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D2EAC3F-87AB-DB98-3820-FCD05CEF1711"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBE86E9E-381D-46C4-6C65-947206EB0DE7" name="REL_SOLAMISTAD_NOTIFTUR">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>E6B9676F-F97B-6B31-02EC-EF21F55A7D9C</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13CCC351-D3DF-C04B-B2E3-E9409B3BB301"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB578FE9-2BF4-8B30-67BD-10AD8E31D2CA" name="REL_SUGCOL_NOTIFTUR">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>3E3D3463-ACDF-199E-D5B0-8F80D2971D34</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC2AA02B-9BA9-5AD9-2C4B-7DFFE8B19D20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="487D3E30-9417-D725-A85A-43C168F28D0D" name="REL_TIPONOTIF_NOTIFTUR">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>FED370FE-D680-ECB4-1422-30A54F44102D</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3FA93CA-940D-B443-C669-6FF9C408150A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF1F550A-5ED8-644D-6EA8-0F01EB866734" name="REL_TUR_DUEÑO_NOTICIA_NOTIFTUR">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>27D531CC-4A89-B9C7-21FD-72DBB8CBFE4E</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="697367AB-BDDF-2C1F-CD36-5C3BC611978C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB12D5DA-1A37-C5BD-11A1-2086F6AF8EC2" name="REL_TUR_GENERANOTIF_NOTIFTUR">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>A9B34540-8825-1891-8E47-59A40935A9AD</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96D068B1-3C2A-0E6E-932E-7B0090DF4A21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE78191B-F8A7-0FCC-F127-93FFEB0BEDE2" name="REL_TUR_INT_EMPATIA_NOTIFTUR">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>D1A261D5-067C-8E83-0F00-2F3F56582947</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF30F29F-2717-0BFF-F622-6BAFB3C1D2FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF8593E0-277D-A652-3E7C-070728167E64" name="REL_TUR_RECIBE_NOTIF">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>4D477083-1B72-2CD1-51AB-5613763DE984</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A4E8AB9-70C8-63C6-C3C8-3F4146D12FBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="983F39D7-B3A8-A059-77C0-B5F23C0CCC7B" name="Relation_302">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>FFCBDB86-A8EF-EE96-9562-C7DF257E44E7</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E98B38D-5112-BC9B-E0D5-555DDC0B30EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

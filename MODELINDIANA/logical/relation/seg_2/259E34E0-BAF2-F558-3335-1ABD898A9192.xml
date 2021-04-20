@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_NEG_VISITADO_PNEG" directorySegmentName="seg_2" id="259E34E0-BAF2-F558-3335-1ABD898A9192">
+<createdBy>Raquel</createdBy>
+<createdTime>2016-03-22 23:30:46 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<sourcePk>092F5429-8205-8252-BC9C-85FD7F645316</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>12C63774-83B9-1363-766A-6B8E34E9D87C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>41A568A5-C2CE-38DA-D142-FA3E75560DE0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<nameFixed>true</nameFixed>
+</Relation>

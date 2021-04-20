@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_CAMP_GRUPO" directorySegmentName="seg_3" id="A8DAAEC6-C9CA-E100-71EB-47E8E4E4FDC7">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-14 21:13:15 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<sourcePk>F54E6454-FA9F-5750-9012-6B2070AF68E8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6DFFF138-9A50-2CD3-241E-B3E09E108F72</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>53F5AF5F-C1C4-6C04-D6BC-51DFD9C92525</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<nameFixed>true</nameFixed>
+</Relation>

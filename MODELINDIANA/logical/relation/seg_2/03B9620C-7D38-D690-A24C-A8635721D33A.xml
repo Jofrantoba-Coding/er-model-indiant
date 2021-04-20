@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_MIEM_TABLON" directorySegmentName="seg_2" id="03B9620C-7D38-D690-A24C-A8635721D33A">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-01 21:59:57 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<sourcePk>0E0FF15E-9BA6-61BD-980A-C406134AF83D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FBF5F06B-E23A-7F6B-6C9F-007960C10AF1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>92C659B0-064A-674E-8E75-A5A8DE26D2A0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<nameFixed>true</nameFixed>
+</Relation>

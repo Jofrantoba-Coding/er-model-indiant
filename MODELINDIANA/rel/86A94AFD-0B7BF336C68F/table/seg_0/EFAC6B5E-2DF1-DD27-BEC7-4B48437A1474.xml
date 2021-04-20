@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EFAC6B5E-2DF1-DD27-BEC7-4B48437A1474" name="CUENTA_ADMIN">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>4735F711-0B9E-9001-A83E-4DEA9A5C7FE9</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CORREO" id="1F323F44-A80F-6F14-F052-096C4830AA53">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>52E2BF25-B91D-C649-3F40-1144B5954BB8</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLAVE" id="847FB6E0-879C-B988-CB98-D063673E8A0B">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>B58909A7-5A5F-1036-AD2E-AAB2967A9D5D</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ESTADO_CUENTA" id="E03A699A-E5C9-B9E6-6473-F0D91B6A4355">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>A: ACTIVADO&lt;br/&gt;P: PENDIENTE DE ACTIVACION&lt;br/&gt;D: DESACTIVADO&lt;br/&gt;E: ELIMINAR</comment>
+<generatorID>33E88232-FFB9-5CC3-E128-8C6E9F244B1B</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D6ADC9F-B2D8-C81F-D69F-7B3A0E7E8DFD" referredColumn="58BF4126-9EA2-4409-760E-58B4062879F8"/>
+</associations>
+</Column>
+<Column name="FECHA_CREACION" id="0BD8197A-6F6A-12CE-D953-49C2010D82B2">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>1F2576AB-1879-4F4B-BC1A-0C84D79D1A8C</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B782055-88A5-923F-D7A6-07C1FCCCBEA0" name="PK_CUENTA_ADMIN">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>F0008EBD-1195-81D4-E46D-4A311956D052</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F323F44-A80F-6F14-F052-096C4830AA53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="061FA094-3B10-0150-D556-F2E3604DEF85" name="REL_ESTCTA_CTADM">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>45368C84-23DA-46B6-0D9E-98C909F41EE1</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E03A699A-E5C9-B9E6-6473-F0D91B6A4355"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_MON_ORIGEN_TIPOCAMB" directorySegmentName="seg_1" id="2ED2FAE0-B458-A791-C732-8E85FDA86975">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-17 22:20:21 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<sourcePk>836A2307-44D7-5B23-C615-A75B3B6D8616</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EF477602-0827-4395-EC78-800F87666358</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6A52DF7D-04C4-8985-47FF-C910351A868C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<nameFixed>true</nameFixed>
+</Relation>

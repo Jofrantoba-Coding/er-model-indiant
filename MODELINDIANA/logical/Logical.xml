@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="88BB9B05-88B3-0FBD-848A-02C1CA871E12" mainViewID="32145481-77CB-9AF3-FE92-D4AC23FAC9C4">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-02 15:12:04 UTC</createdTime>
+<ownerDesignName>Modelo de Base de Datos</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

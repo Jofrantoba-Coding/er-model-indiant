@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1E8BFA90-FE9E-F343-3AC6-E7EADE5B86E7" name="COLONIA_NEGOCIO">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-04 22:10:30 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<nameFixed>true</nameFixed>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_COLONIA_NEGOCIO" id="DA997D4A-3E53-EF35-9D28-8B179303B88F">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-25 23:21:53 UTC</createdTime>
+<comment>ProxColoniaDestino</comment>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_COLONIA" id="0791D1A0-1723-360A-E042-7E9746DE29ED">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-10 17:04:02 UTC</createdTime>
+<generatorID>F1AFE22C-9D20-8FD7-8A38-7432AB6CD135</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<referedAttribute>26624B01-767F-05B8-EDFA-FB64155828C8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="NOMBRE_NEGOCIO" id="08EC79C7-A390-C82D-BDA6-D13CD0698F76">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-02 21:46:05 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="DISTANCIA_REFERENCIA" id="3C2E5E23-67C8-1B24-6AB7-E686707E35C0">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-02 21:55:01 UTC</createdTime>
+<comment>EXPRESADA EN KILOMETROS</comment>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,18,4</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_NEGOCIO" id="9636B3A3-9E15-6FF0-3171-2E76EABE6626">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-04-01 19:20:29 UTC</createdTime>
+<generatorID>AF03F657-F9FE-B4D3-69AE-77AB45644E3F</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<referedAttribute>C90FE764-ECD4-F01A-17B5-CE5139CD081B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D14BE881-C68A-6D3E-CFDC-57B52A343027" name="COLONIA_NEGOCIO PK">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-10 15:38:57 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>DA997D4A-3E53-EF35-9D28-8B179303B88F</newElementsIDs>
+<nameFixed>true</nameFixed>
+<usedAttributes>
+<attributeRef>DA997D4A-3E53-EF35-9D28-8B179303B88F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

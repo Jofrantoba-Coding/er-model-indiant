@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="886A096C-FB8A-120A-F4C8-12F9B7D14810" name="NOTIFICA_MIEMBRO">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>D0453310-16DB-C05F-248B-347B6E3D641E</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_NOTIFICA_MIEMBRO" id="719CEE81-262C-2CC1-0FE8-D1C9ADAE15B5">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>3C83CEBA-AD06-7468-AF79-EBEA78BBDFE3</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_MIEMBRO" id="52D1150B-CE9E-FEA7-9039-EBE0DEC079CE">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>CB2FB8E1-A2D0-2B65-C7BB-DD7F36CA860F</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88E8CA58-BA10-A714-EDAA-2075109C8143" referredColumn="95C2742A-5BB8-33DF-51E3-98464E25341F"/>
+</associations>
+</Column>
+<Column name="CORREO_TURISTA_GENERA_NOTIFICACION" id="801004A8-C91F-CFB3-AEA7-C4350883CE42">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>4728D5D5-A183-BABD-8A06-4A72C7F9A810</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC0C6CA0-1CA8-476F-DE06-504323FB9169" referredColumn="4D0CF4C5-E17B-5591-3A47-89DDBA4799F0"/>
+</associations>
+</Column>
+<Column name="ID_TIPO_MOVIMIENTO" id="A3FB9203-3509-3D59-779D-744E281ED7EC">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>CC: CREAR COLONIA&lt;br/&gt;UC: UNIRSE COLONIA&lt;br/&gt;EM: EMPATIA MIEMBROS&lt;br/&gt;NPE: NOTIFICACION POSITIVA EMPATIA&lt;br/&gt;NNE: NOTIFICACION NEGATIVA EMPATIA&lt;br/&gt;RC: RETIRARSE COLONIA&lt;br/&gt;AC: ABANDONAR COLONIA</comment>
+<generatorID>2AF89E59-EDAA-8C66-589E-40A9E8DB76CA</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58DA734E-9798-DB3B-F18C-86F51CB273A5" referredColumn="583F8A76-5733-1F59-90FE-C6108FDA82FB"/>
+</associations>
+</Column>
+<Column name="FECHA" id="07D3B3E6-7A7C-9D9C-A87C-D2D14DC85775">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>73DF9446-81A2-C9BE-8DD5-D0F62C6F4A62</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="2756B568-9536-53CD-997E-480CB1D87669">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>P: PENDIENTE&lt;br/&gt;E: EJECUTADO</comment>
+<generatorID>A3B63180-7EBC-EC7D-7E1C-1E0AAAA774C9</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CFF2A191-20A3-4D91-01A3-185753F06E0E" name="HISTORIAL_MIEMBRO_PK">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>D4F2E4FC-98C5-1118-FD39-BF0C1F38E0DF</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="719CEE81-262C-2CC1-0FE8-D1C9ADAE15B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6D1BB1E-B726-402A-8923-A5E08267E2D4" name="REL_MIEM_NOTIFMIEM">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>F7A6D775-C35C-FA93-AE21-628061E651B9</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52D1150B-CE9E-FEA7-9039-EBE0DEC079CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2C95BED-67F3-4349-A1DD-86FB0304A592" name="REL_TIPOMOV_NOTIFMIEM">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>D2FEEFB9-D565-5C51-7767-8A3D31903E3B</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3FB9203-3509-3D59-779D-744E281ED7EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D171BA01-1769-8BB6-DC68-2EFA89B3F7FB" name="REL_TUR_NOTIFMIEM">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>4BEA46CE-126E-CBB4-CB55-D4E3E8251BB5</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="801004A8-C91F-CFB3-AEA7-C4350883CE42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

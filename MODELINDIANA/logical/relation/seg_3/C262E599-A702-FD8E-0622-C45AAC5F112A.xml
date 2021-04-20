@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_TUR_GENERA_NOTIFv1" directorySegmentName="seg_3" id="C262E599-A702-FD8E-0622-C45AAC5F112A">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-14 17:06:13 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="3E01C8EF-0072-9CA0-E9ED-37E738EA38A4" value="true"/>
+</engineerTo>
+<sourcePk>55540C52-4962-159C-984E-BFADEDF8441D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>540A2D8B-BE5F-B17C-6415-8DDC6B91A004</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2855D5C8-2869-1259-75F1-B24441FFCB7E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

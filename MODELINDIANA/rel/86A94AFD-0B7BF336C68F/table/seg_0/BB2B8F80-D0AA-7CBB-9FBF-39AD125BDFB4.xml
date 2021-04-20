@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB2B8F80-D0AA-7CBB-9FBF-39AD125BDFB4" name="ESTADO_MIEMBRO">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>D5CB09D0-DB57-20CD-04EF-F9B208CB0A4D</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ESTADO_MIEMBRO" id="3614C969-C044-7D3E-9D03-99EAE9367143">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>A: ACTIVO (DENTRO DEL RANGO DE LA COLONIA)&lt;br/&gt;R: RETIRADO (FUERA DEL RANGO DE LA COLONIA)&lt;br/&gt;D: DESACTIVO (ABANDONÓ LA COLONIA POR DECISIÓN)&lt;br/&gt;</comment>
+<generatorID>513AFE3A-0140-A62F-257B-D3E65330B8C4</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="9A8828AA-A754-27E9-4124-97C69DBF07D8">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>E00A4AAA-37B1-3F0D-322C-96821C39B1D8</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1BE0553A-01E9-05A2-F129-F48A4016D6E8" name="ESTADO_MIEMBRO_PK">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>7E0D9495-BC20-285D-59A5-CF2B9523B6B2</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3614C969-C044-7D3E-9D03-99EAE9367143"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

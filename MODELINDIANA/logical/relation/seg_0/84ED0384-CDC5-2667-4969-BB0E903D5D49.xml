@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_REDSOC_AUTOAUTH" directorySegmentName="seg_0" id="84ED0384-CDC5-2667-4969-BB0E903D5D49">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-09 19:28:10 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<sourcePk>6D267BFB-3CF7-3CB4-3C5A-7FC7ECA09126</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>71A716F4-731D-839E-77A3-27958A43644A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C0AB5606-9DFD-EEDC-5494-0843E7DAC816</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<nameFixed>true</nameFixed>
+</Relation>

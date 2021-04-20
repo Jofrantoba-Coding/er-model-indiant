@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B68A3CC-8C4B-6A0B-042B-BFFCF6017A96" name="PAIS_MONEDA">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>C95113CF-6BBA-8668-4A3B-BCA06359D990</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PAIS_MONEDA" id="2D45A246-DDD8-38E2-0A5B-DE8F335D1C9A">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>88AB1C66-0C2F-7B16-E2B8-12831A9DFAD9</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PAIS" id="43C150F5-8D94-990D-EFB6-D3AAD69B7295">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>CODIGO ALFA 3 - ISO 3166-1.&lt;br/&gt;Ejemplo:&lt;br/&gt;PERU - PER</comment>
+<generatorID>D09DEC6E-88F8-3C69-BD84-0A2188012435</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39AD1882-E581-1300-065A-A610449FBB40" referredColumn="C343EB2B-A1D8-C8A4-D84B-D973F38CF6A0"/>
+</associations>
+</Column>
+<Column name="ID_MONEDA" id="FEDC74FA-2468-0BCD-5FEE-4657F7A60C7F">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>CLAVE PRIMARIA ES EL CODIGO ISO DE MONEDA - ISO 4217</comment>
+<generatorID>9046D907-CA7F-D75A-FC36-D1005523E6A6</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A786635-D41A-D06C-5B4C-C664090088CD" referredColumn="FFB36E2A-B9E3-F94F-C6BE-AB53AFE9CC29"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="94BEC7E1-7496-7B89-6D41-66EEFB71FABB" name="PK_PAIS_MONEDA">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>483A8015-12E2-56A4-5F7E-ADC1B710DD3C</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D45A246-DDD8-38E2-0A5B-DE8F335D1C9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CCED055C-85CF-9303-6D7C-57F941306F08" name="REL_MON_PAISMONEDA">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>5374A2A4-1399-3324-B7FE-3BC46C998A0E</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FEDC74FA-2468-0BCD-5FEE-4657F7A60C7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE3330B5-F0C1-329F-F2B9-F52BC048F8D8" name="REL_PAIS_PAISMONEDA">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>D61C44F6-745A-1427-3EA0-B44D7E217BAD</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43C150F5-8D94-990D-EFB6-D3AAD69B7295"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_TIPOINTER_VISTA_PUB" directorySegmentName="seg_3" id="4BEC8BEB-E3F8-8A11-8DCD-DBDACEB67743">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-15 01:39:13 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<sourcePk>73FFDD87-F827-2D84-3A17-C2AB912A3828</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D6A2EF44-62D6-386A-7798-7CD59487D8D8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5D6D714A-FDDD-EE31-3DBA-6BBACCEC6808</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<nameFixed>true</nameFixed>
+</Relation>

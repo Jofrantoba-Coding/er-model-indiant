@@ -1,0 +1,176 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="574F7E78-FD95-1B7D-9452-DCCDEFE33722" name="TURISTA_INTERES_EMPATIA">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-02 00:41:51 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<nameFixed>true</nameFixed>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_TURISTA_INTERES_EMPATIA" id="FAA6D455-AF08-C198-441C-D422802D033E">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-02 16:27:16 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_MIEMBRO_SUGIERE_INTERES_1" id="D3E5509D-EC8E-600F-8062-4F3F281F0527">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-02 16:28:38 UTC</createdTime>
+<generatorID>7EDBA291-6B99-C08D-34AB-7DA2D5E54CFD</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<referedAttribute>5CE56586-0529-2B90-F621-F9588FA1E8FF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_MIEMBRO_SUGIERE_INTERES_2" id="FE9BC4FA-CA53-E453-307D-B4C3B80AE137">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-02 16:28:45 UTC</createdTime>
+<generatorID>62984E2F-6C91-9BD2-2348-D384C804889C</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<referedAttribute>5CE56586-0529-2B90-F621-F9588FA1E8FF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="CORREO_TURISTA_SUGIERE_INTERES_1" id="D34F5654-5147-9DD2-7142-84E4E4E40862">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-02 16:28:51 UTC</createdTime>
+<generatorID>51499B31-CD8B-2DEA-178A-F06CAD42E561</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<referedAttribute>E4888C69-8EEC-E6DE-FD4D-C6B96B0AD0A6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="CORREO_TURISTA_SUGIERE_INTERES_2" id="9F0B049E-225E-E5D9-0B2F-CA2BF1C756B6">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-02 16:28:58 UTC</createdTime>
+<generatorID>E1DBB2B0-D060-FBFC-87FE-E9A89D0D54D1</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<referedAttribute>E4888C69-8EEC-E6DE-FD4D-C6B96B0AD0A6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_INTERES_SUGERIDO_1" id="BE352EE2-22B6-F0D1-03E4-191B7595655D">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-02 16:29:28 UTC</createdTime>
+<comment>INETRES COMUN CON MÁS ALTO VALOR MODA DEL USUARIO_TURISTA_1</comment>
+<generatorID>A9212D61-131B-3CB9-CCF8-4113C649116A</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<referedAttribute>E79D5658-C66E-F589-D7F9-6ED8C23D9E70</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_INTERES_SUGERIDO_2" id="0E7C1840-4D0B-C7DF-31DF-A5DF85F5AB21">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-02 16:30:12 UTC</createdTime>
+<comment>INETRES COMUN CON MÁS ALTO VALOR MODA DEL USUARIO_TURISTA_2</comment>
+<generatorID>2D2B72DB-C16E-515E-1B46-0544DA31493F</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<referedAttribute>E79D5658-C66E-F589-D7F9-6ED8C23D9E70</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="VALOR_MODA_INTERES_1" id="DBD69927-323D-441A-4AA9-EE98BB9279FE">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-02 16:31:29 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="VALOR_MODA_INTERES_2" id="F2867E58-8C09-1D0B-6D87-A08C47F21538">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-02 16:32:24 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AFF8515B-77AB-5C2D-AA57-0FE90EF5F2CB" name="TURISTA_INTERES_EMPATIA PK">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-02 16:27:46 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>FAA6D455-AF08-C198-441C-D422802D033E</newElementsIDs>
+<nameFixed>true</nameFixed>
+<usedAttributes>
+<attributeRef>FAA6D455-AF08-C198-441C-D422802D033E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

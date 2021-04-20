@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="888B9C82-7A04-A360-3B7A-5A9A4844B89D" name="CUENTA_USUARIO_NEGOCIO">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-10 16:48:04 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<nameFixed>true</nameFixed>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CORREO_SOLICITANTE" id="C532AA8E-724E-4990-872F-5ACAE9E376D9">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-04-01 19:26:38 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="CLAVE" id="5A569918-37E4-C3B2-6657-D8698959AA06">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-10 16:51:05 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="FECHA_CREACION" id="7DE9E491-2ACB-67FD-4C45-0E2C6155452F">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-10 16:51:23 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_ESTADO_CUENTA" id="EE6CA77D-D073-E82D-55D9-8A79E53C9D93">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-10 16:53:25 UTC</createdTime>
+<comment>A: ACTIVADO&lt;br/&gt;P: PENDIENTE DE ACTIVACION&lt;br/&gt;D: DESACTIVADO&lt;br/&gt;E: ELIMINAR</comment>
+<generatorID>1C3575AF-5938-4C5C-3996-83FFDE54064A</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="false"/>
+</engineerTo>
+<referedAttribute>577395AC-E67B-CCEE-C4DC-E5E721E408BA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_NEGOCIO" id="840132E8-8E4B-DFBE-8882-95C58FEE13B6">
+<createdBy>Raquel</createdBy>
+<createdTime>2016-04-15 17:45:34 UTC</createdTime>
+<generatorID>36A70E32-53AD-CB68-0422-5D828FB2FDE5</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<referedAttribute>C90FE764-ECD4-F01A-17B5-CE5139CD081B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_SOL_CTA_NEGOCIO" id="DD4596BE-50E2-AE36-D0B1-77C28C6BF041">
+<createdBy>Raquel</createdBy>
+<createdTime>2016-04-15 17:54:49 UTC</createdTime>
+<generatorID>ED2A1132-EF6A-E0B6-5E6B-4FF91BADADCF</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<referedAttribute>61957951-CEC0-BD41-9E70-8758367EF18C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1C9FDDE4-37CE-D480-C24B-06E2FFC4A603" name="CUENTA_USUARIO_NEGOCIO PK">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-10 16:51:02 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>C532AA8E-724E-4990-872F-5ACAE9E376D9</newElementsIDs>
+<nameFixed>true</nameFixed>
+<usedAttributes>
+<attributeRef>C532AA8E-724E-4990-872F-5ACAE9E376D9</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="44E61C40-D1E3-BF21-3506-364946FC32DC" name="UNQ_SOLICITANTE_NEGOCIO">
+<createdBy>Raquel</createdBy>
+<createdTime>2016-04-15 17:41:09 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<newElementsIDs>DE2C5783-8801-E096-0E47-C3A9D8E5CD67</newElementsIDs>
+</identifier>
+</identifiers>
+</Entity>

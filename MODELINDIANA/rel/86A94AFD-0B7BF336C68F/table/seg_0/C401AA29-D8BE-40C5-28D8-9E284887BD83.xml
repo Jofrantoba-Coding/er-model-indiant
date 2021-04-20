@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C401AA29-D8BE-40C5-28D8-9E284887BD83" name="ENTIDAD_FINANCIERA">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>159BFC82-CBF6-ADA4-3C04-AF808F77D338</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ENTIDAD_FINACIERA" id="1AE66DAE-6F99-5A94-0F9E-B2D944977C58">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>9F74725E-1787-09C0-90FB-6250DAC5FD98</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PAIS" id="2B01861C-0F53-FBCF-2A14-7789FB746108">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>CODIGO ALFA 3 - ISO 3166-1.&lt;br/&gt;Ejemplo:&lt;br/&gt;PERU - PER</comment>
+<generatorID>CCA404D1-3B2B-FA78-271E-2A7423949600</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5FD51F4C-5AB5-9DDD-FA44-3FD84E57EFC5" referredColumn="C343EB2B-A1D8-C8A4-D84B-D973F38CF6A0"/>
+</associations>
+</Column>
+<Column name="NOMBRE_ENTIDAD_FINANCIERA" id="C08B08A1-6D6B-DBC9-E431-188EC3EF3D67">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>4B33950E-5D74-9837-74FE-27A4261D9979</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_CUENTA" id="75C5865F-DBBD-626F-06E4-B74B4F10E771">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>5EA5E1EE-38CD-DB9B-4F5C-8513CA45868D</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE65A324-7626-45F6-6401-86F95A2835E4" name="ENTIDAD_FINANCIERA_PK">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>EAB1B8AF-8277-4717-4F9D-9BB8374F2B28</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AE66DAE-6F99-5A94-0F9E-B2D944977C58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0595755B-B802-0C52-E874-90284A522BA3" name="REL_PAIS_ENTFINAN">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>3E72DB11-AD89-47FE-BC1A-8CEBCE739865</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B01861C-0F53-FBCF-2A14-7789FB746108"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,189 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E22DD3E6-0A8D-CCED-C244-ED755598C21C" name="EMPATIA">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>51F4A17C-3758-E8AD-6B02-286C7ACEF786</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_EMPATIA" id="C479CF2D-E557-F883-ECEE-6F93DF834D95">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>5E4D6FB5-2C4C-61A4-6AF3-38BC42027B3F</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_MIEMBRO_1" id="FC3B33CD-DCC2-B060-7AE2-0BC5D77BD8A9">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>ID_MIEMRBO_1: ES EL ID_MIEMBRO MENOR</comment>
+<generatorID>2E896135-3A0D-75A6-540B-B00AF6EF7AC7</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="98B9C15A-8121-B514-91DB-AC21E9CD9EF8" referredColumn="95C2742A-5BB8-33DF-51E3-98464E25341F"/>
+</associations>
+</Column>
+<Column name="CORREO_TURISTA_1" id="A7919A8F-F7CC-716B-F0E0-20736E6EC341">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>CORREO_TURISTA_1 DEL ID_MIEMRBO_1</comment>
+<generatorID>F693E9D2-C1C9-3BCB-2540-885FB484AFE6</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7B07F6B-D7FB-247E-D144-40FBFD609A42" referredColumn="4D0CF4C5-E17B-5591-3A47-89DDBA4799F0"/>
+</associations>
+</Column>
+<Column name="ID_MIEMBRO_2" id="96172ACD-85CD-54D4-5176-DE09E41A8F4D">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>ID_MIEMRBO_2: ES EL ID_MIEMBRO MAYOR</comment>
+<generatorID>DDCFEA6E-22B5-B283-F0B5-04270FAC9C91</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86A94327-EBEA-EAE0-1440-FE925416D41B" referredColumn="95C2742A-5BB8-33DF-51E3-98464E25341F"/>
+</associations>
+</Column>
+<Column name="CORREO_TURISTA_2" id="A7918F5F-F743-5F42-941D-0ABECCF632EA">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>CORREO_TURISTA_2 DEL ID_MIEMRBO_2</comment>
+<generatorID>70A68F0C-861D-FA50-7FA0-AA0DD0C94210</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5CFAC929-7AB9-7D7B-B400-6A183D68FC5F" referredColumn="4D0CF4C5-E17B-5591-3A47-89DDBA4799F0"/>
+</associations>
+</Column>
+<Column name="COD_UNICO_EMPATIA" id="74518355-A0A6-88B6-5C9D-ABE98C44709A">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>ESTE CODIGO SE GENERA A PARTIR DE LOS ID_MIEMBRO:&lt;br/&gt;ID_MIEMBRO_1@ID_MIEMBRO_2, DONDE EL ID_MIEMBRO_1 &lt;ID_MIEMBRO_2.&lt;br/&gt;EJEMPLO: 12@23</comment>
+<generatorID>60AC12E5-20F8-5B7C-8C16-91B2FF2D8B29</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3000 CHAR</dataTypeSize>
+<ownDataTypeParameters>3000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_EMPATIA" id="E393DE63-FF1F-6FE4-EF16-1C39FAFFF8FC">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>MAXIMO: 5, CUANDO LLEGA AL VALOR MAXIMO SE EJECUTA EL ALGORITIMO DE EMPATIA Y CAMBIA DE ESTADO DE PENDIENTE &quot;P&quot; A EJECUTADO &quot;E&quot;</comment>
+<generatorID>CFDC1F86-EECA-0391-BC5C-B9C72E96C34E</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="C2C6B2B7-04C6-33F4-1D54-279028AEC159">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>E: EJECUTADO&lt;br/&gt;P: PENDIENTE&lt;br/&gt;CUANDO EL VALOR DE CANTIDAD_EMPATIA &lt; 5, ESTADO: &quot;P&quot;,&lt;br/&gt;CUANDO EL VALOR DE CANTIDAD_EMPATIA = 5, ESTADO: &quot;E&quot;  Y YA NO PERMITE SEGUIR INCREMENTANDO EL VALOR_CANTIDAD_EMPATIA.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</comment>
+<generatorID>609B1CB3-C7E0-01A0-563C-4B7CC9F8591A</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E7C3CAC-B0AF-98AC-23B2-670CC6CFD65E" name="CONTADOR_EMPATIA_PK">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>F96EA9DA-48CD-F90F-DEE1-E6D1C13E7994</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C479CF2D-E557-F883-ECEE-6F93DF834D95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1AE5EF66-8175-3A88-525F-E2652911951A" name="REL_MIEM_1_EMPATIA">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>5323547F-F2D3-A13E-337A-6A248EA89CB5</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC3B33CD-DCC2-B060-7AE2-0BC5D77BD8A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE4C21E7-68B6-7D94-DE7A-BEE2EB5CE225" name="REL_MIEM_2_EMPATIA">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>3BE930A9-57F1-7DE4-D4E8-9E5DC30B426A</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96172ACD-85CD-54D4-5176-DE09E41A8F4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="942C579C-D3C4-99A2-F162-8514E8801091" name="REL_TUR_1_EMPATIA">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>E822CC22-3E08-096E-D2EC-C11A4702BED7</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7919A8F-F7CC-716B-F0E0-20736E6EC341"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1C292A4-8BA8-862C-DE3A-553C47F9E55A" name="REL_TUR_2_EMPATIA">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>388E1B65-2EFD-F130-A1B3-2B3DF899B4DE</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7918F5F-F743-5F42-941D-0ABECCF632EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

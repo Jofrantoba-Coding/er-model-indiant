@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="818977AA-4271-090B-8857-AC14AB45B784" name="TIPO_MOVIMIENTO">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-05 22:11:01 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<nameFixed>true</nameFixed>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_TIPO_MOVIMIENTO" id="C39B47E7-0C2B-18B5-E7C4-140AAD27C236">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-09 16:42:06 UTC</createdTime>
+<comment>CC: CREAR COLONIA - E&lt;br/&gt;UC: UNIRSE COLONIA - E&lt;br/&gt;EM: EMPATIA MIEMBROS - E&lt;br/&gt;NPE: NOTIFICACION POSITIVA EMPATIA - E&lt;br/&gt;NNE: NOTIFICACION NEGATIVA EMPATIA - N&lt;br/&gt;RC: RETIRARSE COLONIA - S&lt;br/&gt;AC: ABANDONAR COLONIA - S</comment>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ESTADO" id="EA6D6E61-B70B-FB7B-4FD1-605272E9A32D">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-05 22:31:49 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="DESCRIPCION" id="8C76C613-7431-D0CA-04B7-83BEA7666BBA">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-05 22:31:15 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="TIPO" id="BB467E4D-8A96-100A-429B-3BC767041C7D">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-09 18:25:46 UTC</createdTime>
+<comment>E: ENTRADA&lt;br/&gt;S: SALIDA&lt;br/&gt;N: NEUTRO</comment>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8E791343-6861-327E-D641-412D92D1043A" name="TIPO_MOVIMIENTO PK">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-09 16:42:25 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>C39B47E7-0C2B-18B5-E7C4-140AAD27C236</newElementsIDs>
+<nameFixed>true</nameFixed>
+<usedAttributes>
+<attributeRef>C39B47E7-0C2B-18B5-E7C4-140AAD27C236</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

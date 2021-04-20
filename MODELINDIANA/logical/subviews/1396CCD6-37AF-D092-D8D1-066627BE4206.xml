@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogicalSubView" name="23.- SUBVISTA_NEGOCIO" id="1396CCD6-37AF-D092-D8D1-066627BE4206">
+<createdBy>Raquel</createdBy>
+<modifiedBy>Raquel</modifiedBy>
+<createdTime>2016-04-15 15:51:38 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="12C63774-83B9-1363-766A-6B8E34E9D87C" otype="Entity" vid="FE192772-FE44-4CC5-6DAA-A39C64915A8C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="69" y="262" width="252" height="215"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="20381793-F940-57EC-AC9F-92952C812D7F" otype="Entity" vid="3DAA95DB-84B2-58BA-4A11-86E894C11E76">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="560" y="61" width="196" height="155"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="888B9C82-7A04-A360-3B7A-5A9A4844B89D" otype="Entity" vid="C027E9F8-AB45-3C96-00F3-C1D3E5039EE1">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="123" y="27" width="170" height="110"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="36A70E32-53AD-CB68-0422-5D828FB2FDE5" otype="Relation" vid_source="FE192772-FE44-4CC5-6DAA-A39C64915A8C" vid_target="C027E9F8-AB45-3C96-00F3-C1D3E5039EE1">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="208" y="262"/>
+<point x="208" y="137"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="ED2A1132-EF6A-E0B6-5E6B-4FF91BADADCF" otype="Relation" vid_source="3DAA95DB-84B2-58BA-4A11-86E894C11E76" vid_target="C027E9F8-AB45-3C96-00F3-C1D3E5039EE1">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="560" y="99"/>
+<point x="293" y="99"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

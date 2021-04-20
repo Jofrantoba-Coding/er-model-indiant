@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_FPAGO_PUBNEG" directorySegmentName="seg_3" id="A3F7D8A3-F505-497D-BEF6-6A6D7D304285">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-15 00:55:07 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<sourcePk>EEDDB21A-3AAB-7AA5-B908-3398366E1305</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AC4B0530-23AC-5709-95AB-D25B75A09F4C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>20B5D994-984B-8645-DA93-A358CA55D24D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<nameFixed>true</nameFixed>
+</Relation>

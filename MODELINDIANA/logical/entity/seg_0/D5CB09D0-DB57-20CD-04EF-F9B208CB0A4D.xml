@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D5CB09D0-DB57-20CD-04EF-F9B208CB0A4D" name="ESTADO_MIEMBRO">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-17 22:26:55 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<nameFixed>true</nameFixed>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ESTADO_MIEMBRO" id="513AFE3A-0140-A62F-257B-D3E65330B8C4">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-17 22:27:17 UTC</createdTime>
+<comment>A: ACTIVO (DENTRO DEL RANGO DE LA COLONIA)&lt;br/&gt;R: RETIRADO (FUERA DEL RANGO DE LA COLONIA)&lt;br/&gt;D: DESACTIVO (ABANDONÓ LA COLONIA POR DECISIÓN)&lt;br/&gt;</comment>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="DESCRIPCION" id="E00A4AAA-37B1-3F0D-322C-96821C39B1D8">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-17 22:29:00 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7E0D9495-BC20-285D-59A5-CF2B9523B6B2" name="ESTADO_MIEMBRO PK">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-25 23:26:25 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>513AFE3A-0140-A62F-257B-D3E65330B8C4</newElementsIDs>
+<nameFixed>true</nameFixed>
+<usedAttributes>
+<attributeRef>513AFE3A-0140-A62F-257B-D3E65330B8C4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

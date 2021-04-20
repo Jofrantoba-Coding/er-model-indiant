@@ -1,0 +1,206 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7E383647-C776-07E9-B6DE-0ECD55AB492E" name="DETALLE_EMPATIA">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-03 23:22:20 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<nameFixed>true</nameFixed>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_DETALLE_EMPATIA" id="7D30E40A-C14A-0BDB-163E-4E026FC68EA7">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-10 23:34:33 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="CORREO_TURISTA_EMISOR" id="D98D6110-08D7-7F1E-9C4F-8927E3CE229F">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-01 23:38:45 UTC</createdTime>
+<generatorID>6F29F40E-B3E0-4EDD-CC66-4A0E6CEED8D6</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<referedAttribute>E4888C69-8EEC-E6DE-FD4D-C6B96B0AD0A6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_MIEMBRO_EMISOR" id="0D1BA053-ECCB-1564-79C3-6E00C31CD703">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-02 00:13:34 UTC</createdTime>
+<generatorID>870253B9-A18B-86D0-34BD-7A7D5DD8ED77</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<referedAttribute>5CE56586-0529-2B90-F621-F9588FA1E8FF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="CORREO_TURISTA_RECEPTOR" id="7CD7123D-B5CE-7094-AEE3-1A03F27E0C58">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-01 23:38:53 UTC</createdTime>
+<generatorID>DDCA47BC-79CF-F375-218C-6A91EEA12240</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<referedAttribute>E4888C69-8EEC-E6DE-FD4D-C6B96B0AD0A6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_MIEMBRO_RECEPTOR" id="B29CE00A-B36B-089F-B85F-FA7A34FCA514">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-02 00:13:39 UTC</createdTime>
+<generatorID>29F5D8F9-FEE0-8A57-3667-2DBD25B40D07</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<referedAttribute>5CE56586-0529-2B90-F621-F9588FA1E8FF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_TABLON_COLONIA" id="3C3E4CAC-C3A7-7041-F9EE-84360EB6E7E5">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-01 23:23:17 UTC</createdTime>
+<generatorID>AD5BCD2F-90F0-C486-FDBB-F8FF4F6C3138</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<referedAttribute>E2A0BCB9-5EAB-02C8-8DEA-F253CFD43E9C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="FECHA_EMPATIA" id="D7C05EB5-06AE-8098-5C59-3BB67AA66A65">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-01 23:45:54 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="COD_UNICO_EMPATIA" id="889D63A0-7EC3-A790-08B3-F3CD168D4895">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-01 23:42:27 UTC</createdTime>
+<comment>ESTE CODIGO SE GENERA A PARTIR DE LOS ID_MIEMBRO:&lt;br/&gt;ID_MIEMBRO_1@ID_MIEMBRO_2, DONDE EL ID_MIEMBRO_1 &lt;ID_MIEMBRO_2.&lt;br/&gt;EJEMPLO: 12@23</comment>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3000 CHAR</dataTypeSize>
+<ownDataTypeParameters>3000 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ESTADO" id="7CEAAFDB-F1C9-79CA-4EDD-AF287791B4A9">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-02 00:17:55 UTC</createdTime>
+<comment>E: EJECUTADO&lt;br/&gt;P: PENDIENTE&lt;br/&gt;&lt;br/&gt;SI LA CANTIDAD DE EMPATÍA DE DOS MIEMBROS LLEGO A 5, SE COLOCAN A LAS EMPATIAS ESTADO&quot; E&quot;, A FIN DE YA NO CONTABILIAZARLO NUEVAMENTE</comment>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_EMPATIA" id="F1F71604-BC50-1460-B718-F9FB60203CDB">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-02 17:20:45 UTC</createdTime>
+<generatorID>44394B82-9BA0-5992-65A8-F59B729C42DB</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<referedAttribute>5E4D6FB5-2C4C-61A4-6AF3-38BC42027B3F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_TIPO_EMPATIA" id="06D1FA46-0140-5669-8855-24893E66F811">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-03 16:07:52 UTC</createdTime>
+<comment>C: COMUNICACION</comment>
+<generatorID>5B908FFB-229B-0F1E-637A-D187D6FB660C</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<referedAttribute>34DEB904-78C3-CB7E-DC18-180961DD47A8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FD480E55-C3CA-9260-3B0D-D4EEAB250156" name="EMPATIA PK">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-10 23:34:52 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>7D30E40A-C14A-0BDB-163E-4E026FC68EA7</newElementsIDs>
+<nameFixed>true</nameFixed>
+<usedAttributes>
+<attributeRef>7D30E40A-C14A-0BDB-163E-4E026FC68EA7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_RNGEDAD_TUR" directorySegmentName="seg_3" id="E03AEEE9-F937-2DF3-F6EA-09B58A9A79BA">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-14 23:03:44 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<sourcePk>643402AE-426E-2BD9-82EF-8CF285B9CEEE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>108E1BEC-CCCD-DDD5-2F0E-E728F135D42B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1891F61E-30AA-AB58-46F0-14CE3AB88432</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<nameFixed>true</nameFixed>
+</Relation>

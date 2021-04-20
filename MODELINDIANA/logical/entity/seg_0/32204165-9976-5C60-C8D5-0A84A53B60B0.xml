@@ -1,0 +1,205 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="32204165-9976-5C60-C8D5-0A84A53B60B0" name="NOVEDAD">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-02 16:52:46 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<nameFixed>true</nameFixed>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_NOVEDAD" id="B0F5CC9E-E0FA-0BEB-744A-54A49D0B7914">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-10 16:03:27 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="TIPO_NOVEDAD" id="8908228D-0124-E623-4A8F-F908C6026D47">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-18 23:47:57 UTC</createdTime>
+<comment>NM: NOVEDAD MIEMBRO&lt;br/&gt;NC: NOTICIA COMPARTIDA&lt;br/&gt;NN: NOVEDAD NEGOCIO</comment>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_MIEMBRO_GENERA_NOVEDAD" id="F1EC3505-4E69-DC3F-288C-91881423677C">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-10 17:07:04 UTC</createdTime>
+<generatorID>8421F5D7-BCFC-B1F3-C29D-78A61DCB97FA</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<referedAttribute>5CE56586-0529-2B90-F621-F9588FA1E8FF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="DESCRIPCION" id="2D32A62C-38FC-1040-0109-3C3EC9E3F48A">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-02 17:38:29 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="FECHA_PUBLICACION" id="1EBC2462-2790-9C2D-6927-7B8607E2934E">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-02 17:39:05 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ENLACE" id="797AC77A-D99D-D072-7B0C-5001E564B70C">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-10 16:04:20 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3000 CHAR</dataTypeSize>
+<ownDataTypeParameters>3000 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="CORREO_TURISTA_GENERA_NOVEDAD" id="1C446684-B15E-C973-0BBC-488B36680F0F">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-17 22:11:24 UTC</createdTime>
+<generatorID>7EB702C6-4BDA-E535-ABD7-D3448ED5A7AF</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<referedAttribute>E4888C69-8EEC-E6DE-FD4D-C6B96B0AD0A6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_COLONIA" id="F62DE29F-E6B1-7FCD-CFA1-2EE335316EE5">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-17 22:11:24 UTC</createdTime>
+<generatorID>88C83C47-50CF-85D8-4BCC-28EF00932EAC</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<referedAttribute>26624B01-767F-05B8-EDFA-FB64155828C8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="FOTO_PUBLICIDAD" id="5BD41934-839E-23AA-2D28-911BF9D76DC1">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-19 00:00:33 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3000 CHAR</dataTypeSize>
+<ownDataTypeParameters>3000 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_NOTICIA_COMPARTIDA" id="BBD98D55-49A4-2834-D993-067D37F623A6">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-29 22:21:30 UTC</createdTime>
+<generatorID>2F9F99ED-0210-5D7B-DF2D-3E6F581CA01E</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>2F09933D-3B30-C221-6774-08E6DA7CA033</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_NOTICIA_ORGINAL" id="BAECB72A-060C-B596-85E4-777A3DA61994">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-04 23:00:36 UTC</createdTime>
+<generatorID>2E051783-65F6-A84A-B931-78E6BFE94CEC</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>2CB7315D-6C07-BE28-6EB8-8FE14FBBB364</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2358EA0B-3869-8B60-A95E-82633A6441EC" name="NOVEDAD PK">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-10 16:03:34 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>B0F5CC9E-E0FA-0BEB-744A-54A49D0B7914</newElementsIDs>
+<nameFixed>true</nameFixed>
+<usedAttributes>
+<attributeRef>B0F5CC9E-E0FA-0BEB-744A-54A49D0B7914</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

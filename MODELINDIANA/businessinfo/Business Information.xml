@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="4FCA1B4B-574D-A6D3-0A8A-C9501352081B">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-02 15:12:05 UTC</createdTime>
+<ownerDesignName>Modelo de Base de Datos</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

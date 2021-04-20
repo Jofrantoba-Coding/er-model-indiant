@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D0453310-16DB-C05F-248B-347B6E3D641E" name="NOTIFICA_MIEMBRO">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-06 00:06:46 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<nameFixed>true</nameFixed>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_NOTIFICA_MIEMBRO" id="3C83CEBA-AD06-7468-AF79-EBEA78BBDFE3">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-10 22:03:00 UTC</createdTime>
+<comment>ENTIDAD ELIMININADA, PUES LA ENTIDAD NOTIFICACION SOPORTA SU FUNCIONALIDAD</comment>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_MIEMBRO" id="CB2FB8E1-A2D0-2B65-C7BB-DD7F36CA860F">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-10 22:00:40 UTC</createdTime>
+<generatorID>F7A6D775-C35C-FA93-AE21-628061E651B9</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<referedAttribute>5CE56586-0529-2B90-F621-F9588FA1E8FF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="CORREO_TURISTA_GENERA_NOTIFICACION" id="4728D5D5-A183-BABD-8A06-4A72C7F9A810">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-08 16:43:27 UTC</createdTime>
+<generatorID>4BEA46CE-126E-CBB4-CB55-D4E3E8251BB5</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<referedAttribute>E4888C69-8EEC-E6DE-FD4D-C6B96B0AD0A6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_TIPO_MOVIMIENTO" id="2AF89E59-EDAA-8C66-589E-40A9E8DB76CA">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-09 16:44:54 UTC</createdTime>
+<comment>CC: CREAR COLONIA&lt;br/&gt;UC: UNIRSE COLONIA&lt;br/&gt;EM: EMPATIA MIEMBROS&lt;br/&gt;NPE: NOTIFICACION POSITIVA EMPATIA&lt;br/&gt;NNE: NOTIFICACION NEGATIVA EMPATIA&lt;br/&gt;RC: RETIRARSE COLONIA&lt;br/&gt;AC: ABANDONAR COLONIA</comment>
+<generatorID>D2FEEFB9-D565-5C51-7767-8A3D31903E3B</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<referedAttribute>C39B47E7-0C2B-18B5-E7C4-140AAD27C236</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="FECHA" id="73DF9446-81A2-C9BE-8DD5-D0F62C6F4A62">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-06 00:08:14 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ESTADO" id="A3B63180-7EBC-EC7D-7E1C-1E0AAAA774C9">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-08 16:40:47 UTC</createdTime>
+<comment>P: PENDIENTE&lt;br/&gt;E: EJECUTADO</comment>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D4F2E4FC-98C5-1118-FD39-BF0C1F38E0DF" name="HISTORIAL_MIEMBRO PK">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-09 16:42:25 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>3C83CEBA-AD06-7468-AF79-EBEA78BBDFE3</newElementsIDs>
+<nameFixed>true</nameFixed>
+<usedAttributes>
+<attributeRef>3C83CEBA-AD06-7468-AF79-EBEA78BBDFE3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,197 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="AF7CAF44-6208-CEAD-2220-3D3711FF15D1" name="VISTA_PUBLICIDAD">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>5D6D714A-FDDD-EE31-3DBA-6BBACCEC6808</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_VISTA_PUBLICIDAD" id="06B9640C-2666-0F80-AEAF-6A73CD08C417">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>ABFF50B0-A64F-5B28-7291-508B142E0614</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO_TURISTA" id="69DEDCE4-635E-3A75-F68B-A0E0F3D340CC">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>18CF9D47-DFA1-3536-67DE-61AFE5A984D2</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DBB93DCA-904B-6869-9ED4-637B921CCE82" referredColumn="4D0CF4C5-E17B-5591-3A47-89DDBA4799F0"/>
+</associations>
+</Column>
+<Column name="ID_PUBLICIDAD_NEGOCIO" id="55412657-B387-5EFD-15B2-430072C3465F">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>68461798-128A-3872-31CD-D54E1BA49DDB</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="367C894D-70A6-8B9A-0473-6676FDD365AB" referredColumn="B1D3D545-29E6-27E4-A330-B5EEBBAA9C32"/>
+</associations>
+</Column>
+<Column name="ID_COLONIA" id="85E3A79D-7848-E6A2-8A21-A51F8EF26CB8">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>1C53AC12-7EBB-421F-EDC0-0CAB92F63184</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4D545C9-896F-2315-E5C5-4D524462FE1E" referredColumn="D8BA3325-E988-F399-9F95-E9FB55F60256"/>
+</associations>
+</Column>
+<Column name="ID_DESTINO" id="849AA50E-297B-040D-813F-ED51655E0018">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>DDEF0125-A7D9-50A9-B764-86E5BEF3CF40</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17000696-FAC8-C12E-C4F2-07F8ABE7D1CB" referredColumn="E7186250-9473-252D-8581-04B13469632F"/>
+</associations>
+</Column>
+<Column name="TIPO" id="5296C98A-EF37-A038-7436-9FF8C067FEAB">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>VI: VISTA IMPRESION  (CONTABILIZA)&lt;br/&gt;C: CLIK IMPRESION  (NO CONTABILIZA)&lt;br/&gt; -----&lt;br/&gt; CONTABILIZA: DE LA CANTIDAD DE VISTAS QUE PAGO</comment>
+<generatorID>1B959D2F-BF40-FB3E-8784-84B08C5D3B55</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TIPO_INTERACCION_PUBLICIDAD" id="0BE16B27-3A0E-390F-B57E-826D52C856E4">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>C1AF796C-E6EF-D3E0-A197-D81DDC1CEAC6</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D533211-DFC9-2182-5CEC-583F78C94253" referredColumn="F70F1EE3-48E9-ACE5-7C45-EF6D2D309B82"/>
+</associations>
+</Column>
+<Column name="FECHA" id="52D3A151-F9B6-0FC1-350D-AA525C56C731">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>6DAC6313-B8F9-E267-ECEB-A41E2E7F1C8F</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F0B3D9AC-C0A6-68AD-FA09-BCD1BDAA4D6C" name="VISTA_ANUNCIO_PK">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>606B6B75-D4AD-A766-E7FF-DC8C1E800E75</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06B9640C-2666-0F80-AEAF-6A73CD08C417"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4B26492-75F7-B4FF-8E81-143CF71E3D3D" name="REL_COL_VISTA_PUB">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>6E194524-5437-21EA-5A26-5D0CD5A9742A</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85E3A79D-7848-E6A2-8A21-A51F8EF26CB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9CB547D1-CBF9-5310-1DBB-B87321D360DE" name="REL_DEST_VISTA_PUB">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>D7A3E057-754C-C5B9-464B-B28A90939566</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="849AA50E-297B-040D-813F-ED51655E0018"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2AC64A8E-16F4-F3BB-7720-A82BA008DFC4" name="REL_PUBNEG_VISTA_PUB">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>C72CBBD5-C309-051C-C86B-8172A1512E95</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55412657-B387-5EFD-15B2-430072C3465F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55E678DA-8B1C-E36D-2C2C-73615E7A0AA8" name="REL_TIPOINTER_VISTA_PUB">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>4BEC8BEB-E3F8-8A11-8DCD-DBDACEB67743</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BE16B27-3A0E-390F-B57E-826D52C856E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CFF50E4-1A4E-6DE7-8022-82D80D693E9E" name="REL_TUR_VISTA_PUB">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>39413137-C8BC-17A2-CCD4-8DE7ECBFA211</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69DEDCE4-635E-3A75-F68B-A0E0F3D340CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

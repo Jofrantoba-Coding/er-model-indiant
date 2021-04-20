@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_NEG_CAMP" directorySegmentName="seg_2" id="687605C4-A411-243E-D93F-A06636A77A04">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-14 20:51:39 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<sourcePk>092F5429-8205-8252-BC9C-85FD7F645316</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>12C63774-83B9-1363-766A-6B8E34E9D87C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6DFFF138-9A50-2CD3-241E-B3E09E108F72</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<nameFixed>true</nameFixed>
+</Relation>

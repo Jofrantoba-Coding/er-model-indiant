@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_PAIS_SEGANUN" directorySegmentName="seg_3" id="D48CD607-325D-611C-3D99-E0888D0B30F5">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-14 23:10:08 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<sourcePk>34660F93-A5CC-E7FB-7FB5-722C90E2C971</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FB459939-00B2-0B2B-F0FF-21F6EB3549B9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>699F1B5C-AFC6-3F45-9329-C797ABE627AD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<nameFixed>true</nameFixed>
+</Relation>

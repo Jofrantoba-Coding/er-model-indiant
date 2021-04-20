@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="909DDD15-B6EB-A1D2-E696-A0E2F177EA80" name="ESTADO_SOLICITUD_AMISTAD">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-05 17:44:46 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<nameFixed>true</nameFixed>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ESTADO_SOLICITUD_AMISTAD" id="CF0B9A4C-A63E-F6CD-2154-318FFBF14D51">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-09 16:21:28 UTC</createdTime>
+<comment>P: PENDIENTE&lt;br/&gt;A: ACEPTADA&lt;br/&gt;R: RECHAZADA</comment>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="DESCRIPCION" id="FB2E8636-363A-1EFE-FCF0-A86C2CE98C1D">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-05 22:39:30 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D84A95F4-874C-3E13-37DC-EC42196F0D52" name="ESTADO SOLICITUD AMISTAD PK">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-09 16:24:13 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>CF0B9A4C-A63E-F6CD-2154-318FFBF14D51</newElementsIDs>
+<nameFixed>true</nameFixed>
+<usedAttributes>
+<attributeRef>CF0B9A4C-A63E-F6CD-2154-318FFBF14D51</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

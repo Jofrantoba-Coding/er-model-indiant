@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_TIPOEMPATIA_DETEMPATIA" directorySegmentName="seg_2" id="5B908FFB-229B-0F1E-637A-D187D6FB660C">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-03 16:07:52 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<sourcePk>0FC77F93-A173-B35F-E17F-296F01B96A93</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8B71EE7F-6E8B-0E4F-789D-EEA998155DCF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7E383647-C776-07E9-B6DE-0ECD55AB492E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<nameFixed>true</nameFixed>
+</Relation>

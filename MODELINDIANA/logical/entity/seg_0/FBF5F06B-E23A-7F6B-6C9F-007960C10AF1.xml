@@ -1,0 +1,197 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FBF5F06B-E23A-7F6B-6C9F-007960C10AF1" name="MIEMBRO">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-02 17:02:58 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<nameFixed>true</nameFixed>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_MIEMBRO" id="5CE56586-0529-2B90-F621-F9588FA1E8FF">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-10 17:05:06 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="CORREO_TURISTA" id="B07837A8-B916-5C89-5A7B-E1825D2CBF65">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-10 17:04:36 UTC</createdTime>
+<generatorID>0D90C569-8382-01C9-718B-9AC65DEBA8DC</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<referedAttribute>E4888C69-8EEC-E6DE-FD4D-C6B96B0AD0A6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_COLONIA" id="714CB195-CDAD-F069-DF0C-2C42C2AA6D63">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-10 17:04:28 UTC</createdTime>
+<generatorID>39AEB0CD-E90B-6EE4-7869-82D012B5E130</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<referedAttribute>26624B01-767F-05B8-EDFA-FB64155828C8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="NOMBRE_COLONIA" id="58BC2953-C055-3CF6-3B92-20C848C530B7">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-17 23:28:06 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_ESTADO_MIEMBRO" id="A660DC8C-510D-8CE3-B143-456C476D7BD5">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-29 23:37:04 UTC</createdTime>
+<comment>A: ACTIVO (DENTRO DEL RANGO DE LA COLONIA)&lt;br/&gt;R: RETIRADO (FUERA DEL RANGO DE LA COLONIA)&lt;br/&gt;D: DESACTIVO (ABANDONÓ LA COLONIA POR DECISIÓN)&lt;br/&gt;</comment>
+<generatorID>BBA41654-2EF7-B3E0-ECCC-047B7E513106</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<referedAttribute>513AFE3A-0140-A62F-257B-D3E65330B8C4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="FECHA_SUSCRIPCION" id="2D11F69C-47CA-2147-A971-66BFA28732F5">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-02 17:28:47 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ESTADO_VISIBILIDAD" id="3DA030B4-3FCC-776B-16F9-500D54536CD2">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-04 17:21:38 UTC</createdTime>
+<comment>V:VISIBLE&lt;br/&gt;N: NO VISIBLE&lt;br/&gt;&lt;br/&gt;MOSTRAR LA COLONIA EN EL PERFIL DEL USUARIO_TURISTA</comment>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="NOMBRE_TURISTA_MIEMBRO" id="E2EF21F3-B747-FEDB-637A-8745E9737F93">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-17 23:26:42 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="APELLIDO_TURISTA_MIEMBRO" id="FCC495D3-ACA4-36F1-F0CE-9FF9FAA6C029">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-17 23:26:59 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="FOTO_PERFIL_TURISTA_MIEMBRO" id="919075A1-3EEC-E7AE-1A2E-E5318E610F54">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-17 23:27:29 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3000 CHAR</dataTypeSize>
+<ownDataTypeParameters>3000 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ESTADOCHATCOLONIA" id="9DF838C1-AD66-6A7C-A539-FDACC90E72EF">
+<createdBy>root</createdBy>
+<createdTime>2016-10-25 00:49:00 UTC</createdTime>
+<comment>A: ACTIVO, AQUEL MIEMBRO QUE ESTA VISUALIZANDO EL TABLON EN TIEMPO REAL.&lt;br/&gt;I: INACTIVO. AQUEL QUE NO ESTA VISUALIZANDO EL CHAT  EN EL TABLON</comment>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0E0FF15E-9BA6-61BD-980A-C406134AF83D" name="MIEMBRO PK">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-10 17:04:28 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>5CE56586-0529-2B90-F621-F9588FA1E8FF</newElementsIDs>
+<nameFixed>true</nameFixed>
+<usedAttributes>
+<attributeRef>5CE56586-0529-2B90-F621-F9588FA1E8FF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

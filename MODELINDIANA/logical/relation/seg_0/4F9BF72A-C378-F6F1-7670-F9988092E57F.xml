@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_TUR_COMPARTE_NOTI" directorySegmentName="seg_0" id="4F9BF72A-C378-F6F1-7670-F9988092E57F">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-11 16:52:03 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<sourcePk>50C27DBE-B2A2-2427-94A0-A3A517AFB8E3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1891F61E-30AA-AB58-46F0-14CE3AB88432</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3AF9A94F-2CC7-8D99-6786-372A49A897D3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<nameFixed>true</nameFixed>
+</Relation>

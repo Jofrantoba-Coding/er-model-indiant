@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_CTADM_ADM" directorySegmentName="seg_0" id="83F9396C-BFC9-2C1A-006E-74AC1D59E7F3">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-08 22:41:31 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<sourcePk>F0008EBD-1195-81D4-E46D-4A311956D052</sourcePk>
+<dominantRole>4735F711-0B9E-9001-A83E-4DEA9A5C7FE9</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4735F711-0B9E-9001-A83E-4DEA9A5C7FE9</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>2F81B997-EB1A-A154-AAD9-C8DB4E0614B9</targetEntity>
+<transferable>true</transferable>
+<nameFixed>true</nameFixed>
+</Relation>

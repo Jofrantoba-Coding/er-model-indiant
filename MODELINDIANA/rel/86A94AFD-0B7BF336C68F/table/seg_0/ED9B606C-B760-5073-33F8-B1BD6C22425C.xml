@@ -1,0 +1,227 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED9B606C-B760-5073-33F8-B1BD6C22425C" name="CUENTA_USUARIO_NEGOCIO">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>888B9C82-7A04-A360-3B7A-5A9A4844B89D</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CORREO_SOLICITANTE" id="4DD59165-D011-5557-D4F7-7459E957131D">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>C532AA8E-724E-4990-872F-5ACAE9E376D9</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLAVE" id="C7C93F36-A133-9533-73AC-0CA52B50389A">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>5A569918-37E4-C3B2-6657-D8698959AA06</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CREACION" id="3F7C718D-77A5-6808-FCCA-F6EE508B44C8">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>7DE9E491-2ACB-67FD-4C45-0E2C6155452F</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ESTADO_CUENTA" id="D37C35E3-EB5F-9783-C8BF-1E00A0F74909">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>A: ACTIVADO&lt;br/&gt;P: PENDIENTE DE ACTIVACION&lt;br/&gt;D: DESACTIVADO&lt;br/&gt;E: ELIMINAR</comment>
+<generatorID>EE6CA77D-D073-E82D-55D9-8A79E53C9D93</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A1AB6A1-A4DF-2B24-347B-C9962AC37463" referredColumn="58BF4126-9EA2-4409-760E-58B4062879F8"/>
+</associations>
+</Column>
+<Column name="ID_NEGOCIO" id="B2905E55-35C9-515E-22FD-95D7ED4C9CF4">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>840132E8-8E4B-DFBE-8882-95C58FEE13B6</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B656CD7A-5617-F176-5D62-286B2E5BF13B" referredColumn="B392B137-C7CB-944F-C7F0-E9E201939D90"/>
+</associations>
+</Column>
+<Column name="ID_SOL_CTA_NEGOCIO" id="C9E94734-C6D9-E0FC-3B38-9F36685288D2">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>DD4596BE-50E2-AE36-D0B1-77C28C6BF041</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A5DCF467-C0E0-10D9-39C4-D5D046DACB4F" referredColumn="DFB61A74-BDF1-64DB-B549-04E27B715B8E"/>
+</associations>
+</Column>
+<Column name="ID_NEGOCIO1" id="D06BEDF6-2FEF-DD87-DBD6-9C5A2D3E81BE">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>F384B30B-650E-0443-A85B-01BEC860F475</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7396B8D3-8F7D-A0E8-B3B2-98074C4BFA4A" referredColumn="B392B137-C7CB-944F-C7F0-E9E201939D90"/>
+</associations>
+</Column>
+<Column name="ID_SOL_CTA_NEGOCIO1" id="AA7A9E8B-1E60-C7C2-E0A4-E14E8AFA8DCD">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>B302446A-879E-FDBD-B9A7-9631CADF2098</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF0F08D0-0168-C044-4FEA-7FC4936D4FFA" referredColumn="DFB61A74-BDF1-64DB-B549-04E27B715B8E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F3D2AB84-49F0-228C-5943-73E78246C7DF" name="CUENTA_USUARIO_NEGOCIO_PK">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>1C9FDDE4-37CE-D480-C24B-06E2FFC4A603</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DD59165-D011-5557-D4F7-7459E957131D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8715FFCC-DD05-25ED-AF34-DC0E51F60152" name="UNQ_SOLICITANTE_NEGOCIO">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>44E61C40-D1E3-BF21-3506-364946FC32DC</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="1D16DC08-81E6-7562-9A94-55197E04B1C4" name="CUENTA_USUARIO_NEGOCIO__IDX">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>ED2A1132-EF6A-E0B6-5E6B-4FF91BADADCF</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="C9E94734-C6D9-E0FC-3B38-9F36685288D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F11F40C9-DE7A-9E15-E140-F1BFF9842BD7" name="CUENTA_USUARIO_NEGOCIO__IDXv1">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>35E55FC4-031B-C623-06C7-B128B9A7C0DF</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="AA7A9E8B-1E60-C7C2-E0A4-E14E8AFA8DCD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9D7FFF1-25CB-0F3A-233D-82447B6D30CC" name="REL_ESTCTA_CTANEG">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>1C3575AF-5938-4C5C-3996-83FFDE54064A</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D37C35E3-EB5F-9783-C8BF-1E00A0F74909"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36065630-50D3-5BAB-5A14-1676B86E53DA" name="REL_NEG_CTANEG">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>36A70E32-53AD-CB68-0422-5D828FB2FDE5</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2905E55-35C9-515E-22FD-95D7ED4C9CF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6CC6346-3960-31D2-CE7F-DA6188F8F61F" name="REL_SOLCTANEG_CTANEG">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>ED2A1132-EF6A-E0B6-5E6B-4FF91BADADCF</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9E94734-C6D9-E0FC-3B38-9F36685288D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8FA2413-6A21-CF1D-5DA8-A8E27E89252F" name="Relation_212">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>24AFEC81-BE59-52D3-928A-4BD7560640CE</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D06BEDF6-2FEF-DD87-DBD6-9C5A2D3E81BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0EEF679-D9DE-5B96-021C-4EC30FF6867D" name="Relation_214">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>35E55FC4-031B-C623-06C7-B128B9A7C0DF</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA7A9E8B-1E60-C7C2-E0A4-E14E8AFA8DCD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C95113CF-6BBA-8668-4A3B-BCA06359D990" name="PAIS_MONEDA">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-08 22:56:49 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="E7BEBB56-5B4F-4DB8-131D-166401EC75B7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PAIS_MONEDA" id="88AB1C66-0C2F-7B16-E2B8-12831A9DFAD9">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-08 23:05:48 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="E7BEBB56-5B4F-4DB8-131D-166401EC75B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PAIS" id="D09DEC6E-88F8-3C69-BD84-0A2188012435">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-08 22:57:01 UTC</createdTime>
+<comment>CODIGO ALFA 3 - ISO 3166-1.&lt;br/&gt;Ejemplo:&lt;br/&gt;PERU - PER</comment>
+<generatorID>D61C44F6-745A-1427-3EA0-B44D7E217BAD</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="E7BEBB56-5B4F-4DB8-131D-166401EC75B7" value="true"/>
+</engineerTo>
+<referedAttribute>CC641324-F2A2-BD74-B9E2-E316F1FBBA03</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_MONEDA" id="9046D907-CA7F-D75A-FC36-D1005523E6A6">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-08 22:57:08 UTC</createdTime>
+<comment>CLAVE PRIMARIA ES EL CODIGO ISO DE MONEDA - ISO 4217</comment>
+<generatorID>5374A2A4-1399-3324-B7FE-3BC46C998A0E</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="E7BEBB56-5B4F-4DB8-131D-166401EC75B7" value="true"/>
+</engineerTo>
+<referedAttribute>35F8262C-3C2E-583F-A504-24FB2BB58A77</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="483A8015-12E2-56A4-5F7E-ADC1B710DD3C" name="PK_PAIS_MONEDA">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-08 22:57:01 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="E7BEBB56-5B4F-4DB8-131D-166401EC75B7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>88AB1C66-0C2F-7B16-E2B8-12831A9DFAD9</newElementsIDs>
+<usedAttributes>
+<attributeRef>88AB1C66-0C2F-7B16-E2B8-12831A9DFAD9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

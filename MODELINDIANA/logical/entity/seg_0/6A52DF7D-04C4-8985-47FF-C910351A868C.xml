@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6A52DF7D-04C4-8985-47FF-C910351A868C" name="TIPO_CAMBIO">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-05 23:17:03 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<nameFixed>true</nameFixed>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_TIPO_CAMBIO" id="A51347B2-6E1B-CB34-BA47-232934C102DE">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-29 18:29:04 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="PRECIO_VENTA" id="AAA54D6B-B9D9-BF0D-9A13-E40AD1E7C136">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-05 23:17:14 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="PRECIO_COMPRA" id="8F023428-336D-E4B4-5512-1C61DA9D7611">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-05 23:17:39 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="FECHA" id="CFC33622-801F-0FB5-F1AE-FC15CB3571FF">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-05 23:18:02 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_MONEDA_ORIGEN" id="7EB68645-EDCB-FB4B-DD97-4F232F0F1CD6">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-17 22:20:22 UTC</createdTime>
+<comment>CLAVE PRIMARIA ES EL CODIGO ISO DE MONEDA - ISO 4217</comment>
+<generatorID>2ED2FAE0-B458-A791-C732-8E85FDA86975</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<referedAttribute>35F8262C-3C2E-583F-A504-24FB2BB58A77</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_MONEDA_DESTINO" id="0D2D310C-38AD-5329-1A90-37B25EE40E41">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-17 22:20:32 UTC</createdTime>
+<comment>CLAVE PRIMARIA ES EL CODIGO ISO DE MONEDA - ISO 4217</comment>
+<generatorID>11D1E61A-C42F-78A3-8C30-4787CE213E28</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<referedAttribute>35F8262C-3C2E-583F-A504-24FB2BB58A77</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AB810AD0-5FC1-3DC9-60AE-7B72F28F90F7" name="TIPO_CAMBIO PK">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-17 22:20:22 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>A51347B2-6E1B-CB34-BA47-232934C102DE</newElementsIDs>
+<nameFixed>true</nameFixed>
+<usedAttributes>
+<attributeRef>A51347B2-6E1B-CB34-BA47-232934C102DE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

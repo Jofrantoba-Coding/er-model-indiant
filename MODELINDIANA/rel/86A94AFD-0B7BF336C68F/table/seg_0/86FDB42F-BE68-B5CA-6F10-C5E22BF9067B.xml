@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="86FDB42F-BE68-B5CA-6F10-C5E22BF9067B" name="PRIVACIDAD">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>76DFDAC0-C63E-DD3E-1ACA-D3875B4D2D11</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ANUNCIO" id="56EDB79A-6F4F-DD62-365E-87174093B87C">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>P: PUBLICO&lt;br/&gt;M: MIEMBROS DE MIS  COLONIA&lt;br/&gt;AA: AMIGOS DE AMIGOS&lt;br/&gt;A: AMIGOS&lt;br/&gt;SY: SOLO YO&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</comment>
+<generatorID>A356BC53-D47C-8463-4C03-A6545C4CAED4</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="72CC737E-F912-A449-746E-4DF337E4ED4B">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>P:PUBLICO&lt;br/&gt;AA:AMIGOS DE AMIGOS&lt;br/&gt;SY: SOLO YO&lt;br/&gt;</comment>
+<generatorID>38957C72-957C-3BC1-DC28-4B66CC5B8FAB</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF97FB78-7FA4-2CB6-8A2E-9DC312B242FC" name="PRIVACIDAD_PK">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>E11C6DBC-15B5-8A84-1576-8A4B41DE42C6</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56EDB79A-6F4F-DD62-365E-87174093B87C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

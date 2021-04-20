@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="80504703-411C-EF9F-8CCC-01CDC57A12C3" name="TARIFARIO">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-14 23:12:18 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<nameFixed>true</nameFixed>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_TARIFARIO" id="02CC1177-4DC9-408A-C1B6-6D65D42C7094">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-14 23:17:56 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_TIPO_SUSCRIPCION" id="048FD218-86B7-3CDC-A094-510D1E971289">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-14 23:21:20 UTC</createdTime>
+<comment>IF: INFORMACION CONTACTO&lt;br/&gt;G: GEOLOCALIZACION&lt;br/&gt;O: OFERTA&lt;br/&gt;VI: VISTA IMPRESION</comment>
+<generatorID>1907A9E3-D6B5-ADC1-4129-901812A4BFEA</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<referedAttribute>ECC40AAA-5499-BAEE-2FE2-05725D82F3BB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="RANGO_PRECIOS_VISTA_IMPRESION" id="6DB11BF7-2149-AB69-11F9-97FBE3A40A10">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-14 23:28:21 UTC</createdTime>
+<comment>10,000&lt;br/&gt;15,000&lt;br/&gt;20,000&lt;br/&gt;30,000&lt;br/&gt;50,000&lt;br/&gt;</comment>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="PRECIO_UNIDAD" id="C5AB31C0-C8CC-AE6E-3327-6EF370CAD757">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-14 23:21:41 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,18,5</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_PAIS" id="0BCAFDC8-5225-46F4-FA15-6B64F2AE362E">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-14 23:22:57 UTC</createdTime>
+<comment>CODIGO ALFA 3 - ISO 3166-1.&lt;br/&gt;Ejemplo:&lt;br/&gt;PERU - PER</comment>
+<generatorID>8522F2D0-8F75-6752-4DC8-53B8B60FD9BD</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<referedAttribute>CC641324-F2A2-BD74-B9E2-E316F1FBBA03</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_REGION" id="B64ADF67-DC4B-E4C6-09F9-4CC42573029E">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-14 23:23:32 UTC</createdTime>
+<generatorID>34562ABC-5DE0-01CC-78FF-46ADF08F4664</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<referedAttribute>089D4D0C-E171-D1F6-D6A4-7531854CA345</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5ED65959-3053-D6E3-EC8D-5A60A9F7258F" name="TARIFARIO PK">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-14 23:21:20 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>02CC1177-4DC9-408A-C1B6-6D65D42C7094</newElementsIDs>
+<nameFixed>true</nameFixed>
+<usedAttributes>
+<attributeRef>02CC1177-4DC9-408A-C1B6-6D65D42C7094</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

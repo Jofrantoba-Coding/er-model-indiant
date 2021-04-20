@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_CTAUSUTUR_SESTUR" directorySegmentName="seg_0" id="F5424468-49D0-D872-A3D4-3EF70159E843">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-02 15:55:29 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<sourcePk>3F26EC1B-FA06-B53B-0754-602F5AA27C72</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6B6DA6A1-DFAD-27C2-CBFA-8FCA828D64BC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>69F27974-7EDE-DB57-66AF-BB886BBE3AB0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<nameFixed>true</nameFixed>
+</Relation>

@@ -1,0 +1,265 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="79F41A2A-D07A-878B-3EB1-D44C3B07C73A" name="DETALLE_EMPATIA">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>7E383647-C776-07E9-B6DE-0ECD55AB492E</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DETALLE_EMPATIA" id="94BF347E-794E-80B8-ACC8-DA33EEEE78D5">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>7D30E40A-C14A-0BDB-163E-4E026FC68EA7</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO_TURISTA_EMISOR" id="E8641D6B-9A79-BC65-4495-99E70F31018D">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>D98D6110-08D7-7F1E-9C4F-8927E3CE229F</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DFADD09C-7C0D-7996-DB06-4DC0E20AFE51" referredColumn="4D0CF4C5-E17B-5591-3A47-89DDBA4799F0"/>
+</associations>
+</Column>
+<Column name="ID_MIEMBRO_EMISOR" id="0548E018-C2FB-4F73-C1F0-CBDF71AF6DEC">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>0D1BA053-ECCB-1564-79C3-6E00C31CD703</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1DC4D39C-E8EF-B4E5-C37C-85CC6544B8A0" referredColumn="95C2742A-5BB8-33DF-51E3-98464E25341F"/>
+</associations>
+</Column>
+<Column name="CORREO_TURISTA_RECEPTOR" id="83BB4DF1-5B13-D655-4AC4-B01D7588BFFF">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>7CD7123D-B5CE-7094-AEE3-1A03F27E0C58</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4EFE869C-DF2A-0378-C4D3-BC8A8504E84B" referredColumn="4D0CF4C5-E17B-5591-3A47-89DDBA4799F0"/>
+</associations>
+</Column>
+<Column name="ID_MIEMBRO_RECEPTOR" id="E5B59575-D60A-1A09-570E-81DC80331FC9">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>B29CE00A-B36B-089F-B85F-FA7A34FCA514</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58055B9B-713E-E6F3-D7C7-07055FE25BDF" referredColumn="95C2742A-5BB8-33DF-51E3-98464E25341F"/>
+</associations>
+</Column>
+<Column name="ID_TABLON_COLONIA" id="ED989BB1-753A-31D8-4FBA-7B9A56715F53">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>3C3E4CAC-C3A7-7041-F9EE-84360EB6E7E5</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE8D7C7B-CA1F-B661-93D3-4D0B99F57239" referredColumn="ACBF9CBE-28C1-D708-6EEC-A0BF6AED8D86"/>
+</associations>
+</Column>
+<Column name="FECHA_EMPATIA" id="3B68F82C-86BC-E801-5F63-A26763A7547D">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>D7C05EB5-06AE-8098-5C59-3BB67AA66A65</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_UNICO_EMPATIA" id="B6BA766B-F0DD-3217-1C3D-337B762EBD08">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>ESTE CODIGO SE GENERA A PARTIR DE LOS ID_MIEMBRO:&lt;br/&gt;ID_MIEMBRO_1@ID_MIEMBRO_2, DONDE EL ID_MIEMBRO_1 &lt;ID_MIEMBRO_2.&lt;br/&gt;EJEMPLO: 12@23</comment>
+<generatorID>889D63A0-7EC3-A790-08B3-F3CD168D4895</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3000 CHAR</dataTypeSize>
+<ownDataTypeParameters>3000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="3A3FD12A-A5B6-A4A3-5FBD-E9CDDE111A7E">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>E: EJECUTADO&lt;br/&gt;P: PENDIENTE&lt;br/&gt;&lt;br/&gt;SI LA CANTIDAD DE EMPATÍA DE DOS MIEMBROS LLEGO A 5, SE COLOCAN A LAS EMPATIAS ESTADO&quot; E&quot;, A FIN DE YA NO CONTABILIAZARLO NUEVAMENTE</comment>
+<generatorID>7CEAAFDB-F1C9-79CA-4EDD-AF287791B4A9</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_EMPATIA" id="4787E5F3-FDAE-6747-5AAE-1065463574DF">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>F1F71604-BC50-1460-B718-F9FB60203CDB</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="590DCC5B-4D98-8406-E5F2-10A13F04185F" referredColumn="C479CF2D-E557-F883-ECEE-6F93DF834D95"/>
+</associations>
+</Column>
+<Column name="ID_TIPO_EMPATIA" id="EB96A088-9BFA-D540-58BB-7F0FC45A13E0">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>C: COMUNICACION</comment>
+<generatorID>06D1FA46-0140-5669-8855-24893E66F811</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5EEAA58B-D628-24B3-2848-2F8FD53C5BE4" referredColumn="A6896001-5732-8F74-EE9D-4F4688F71147"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B3E558A-07A2-700D-B27F-BC053CA105FA" name="EMPATIA_PK">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>FD480E55-C3CA-9260-3B0D-D4EEAB250156</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94BF347E-794E-80B8-ACC8-DA33EEEE78D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="382ADB66-E20D-69AC-A56F-2AFFEE8CEE56" name="REL_EMP_DETEMPATIA">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>44394B82-9BA0-5992-65A8-F59B729C42DB</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4787E5F3-FDAE-6747-5AAE-1065463574DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F8241AA-EF3E-5BF8-FA8E-D5C2B83E608A" name="REL_MIEM_EMISOR_DETEMPATIA">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>870253B9-A18B-86D0-34BD-7A7D5DD8ED77</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0548E018-C2FB-4F73-C1F0-CBDF71AF6DEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0242CF5C-E721-0E0B-1558-01714B39A3B4" name="REL_MIEM_RECEPTOR_DETEMPARTIA">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>29F5D8F9-FEE0-8A57-3667-2DBD25B40D07</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5B59575-D60A-1A09-570E-81DC80331FC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="17D044BF-C068-30E4-1649-88ECFE75FA2B" name="REL_TABLON_DETEMPATIA">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>AD5BCD2F-90F0-C486-FDBB-F8FF4F6C3138</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED989BB1-753A-31D8-4FBA-7B9A56715F53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="889154F9-61EE-23D0-16AA-52E1E9BE470A" name="REL_TIPOEMPATIA_DETEMPATIA">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>5B908FFB-229B-0F1E-637A-D187D6FB660C</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB96A088-9BFA-D540-58BB-7F0FC45A13E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A3704CC-D67F-A088-B577-E380D8C4E6B5" name="REL_TUR_EMISOR_DETEMPATIA">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>6F29F40E-B3E0-4EDD-CC66-4A0E6CEED8D6</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8641D6B-9A79-BC65-4495-99E70F31018D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3384C8D2-6C05-25F3-4FA5-AF4FFD0DEF50" name="REL_TUR_RECEPTOR_DETEMPATIA">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>DDCA47BC-79CF-F375-218C-6A91EEA12240</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83BB4DF1-5B13-D655-4AC4-B01D7588BFFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

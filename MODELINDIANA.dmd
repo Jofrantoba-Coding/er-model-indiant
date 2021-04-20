@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MODELINDIANA" id="69384AC5-0A28-24BF-3055-18E581DAF625" version="3.5">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-02 15:12:03 UTC</createdTime>
+<ownerDesignName>Modelo de Base de Datos</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>69384AC5-0A28-24BF-3055-18E581DAF625</designId>
+</OSDM_Design>

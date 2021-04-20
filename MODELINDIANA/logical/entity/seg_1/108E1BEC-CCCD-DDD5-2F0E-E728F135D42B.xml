@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="108E1BEC-CCCD-DDD5-2F0E-E728F135D42B" name="RANGO_EDAD">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-14 22:56:05 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<nameFixed>true</nameFixed>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_RANGO_EDAD" id="CB54EA71-F371-1359-DEDD-D3845C616C15">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-14 22:56:30 UTC</createdTime>
+<comment>R1: 0- 11&lt;br/&gt;R2: 12 - 18&lt;br/&gt;R3: 19 -25&lt;br/&gt;R4: 26 -30&lt;br/&gt;R5: 31-45&lt;br/&gt;R6: 46-60&lt;br/&gt;R7: 60 A +</comment>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="EDAD_INICO" id="9C332BDB-34D9-91B3-ADBA-5C2D1480068B">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-14 22:57:19 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="EDAD_FIN" id="0307D852-992B-11A8-015B-EA569BD322F8">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-14 22:58:02 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="643402AE-426E-2BD9-82EF-8CF285B9CEEE" name="RANGO_EDAD PK">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-14 22:58:41 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<nameFixed>true</nameFixed>
+<usedAttributes>
+<attributeRef>CB54EA71-F371-1359-DEDD-D3845C616C15</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

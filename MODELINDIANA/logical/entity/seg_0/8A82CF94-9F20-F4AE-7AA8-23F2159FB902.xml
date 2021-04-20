@@ -1,0 +1,269 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A82CF94-9F20-F4AE-7AA8-23F2159FB902" name="AMISTAD">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-04 16:28:49 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<nameFixed>true</nameFixed>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_AMISTAD" id="8469254E-C8C0-84F8-E4E1-A62252828759">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-29 22:39:11 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="COD_UNICO_AMISTAD" id="0A02AE41-4DAB-F0AA-D903-7FA2E8ED10B4">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-29 23:06:09 UTC</createdTime>
+<comment>ESTE CODIGO  SE REPITE EN LAS 2 DONDE SE REGISTRA QUE:&lt;br/&gt;U1 ES AMIGO DE U2 &lt;br/&gt;U2 ES AMIGO DE U1&lt;br/&gt;&lt;br/&gt;hashU1&lt;hashU2&lt;br/&gt;hashU1@hashU2&lt;br/&gt;hashU1&gt;hashU2&lt;br/&gt;hashU2@hashU1</comment>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3000 CHAR</dataTypeSize>
+<ownDataTypeParameters>3000 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_ESTADO_AMISTAD" id="2C743FBD-2FFD-39C7-7D07-2839B25F7F0F">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-29 23:00:18 UTC</createdTime>
+<comment>A: ACTIVO&lt;br/&gt;B: BLOQUEADO&lt;br/&gt;E: ELIMINADO</comment>
+<generatorID>4984FF9A-90B4-E83B-27A4-766B4099767C</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<referedAttribute>B3AED1EF-EBBB-3EAE-A513-23F2FFB185C6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="FECHA_INICIO" id="91D04E70-987B-4093-EBD9-6D84F5AB5D5B">
+<createdBy>KIONGO INC SAC</createdBy>
+<createdTime>2016-02-04 17:08:33 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="FECHA_FIN" id="1381277A-DEBF-991C-D801-9243740458CE">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:10:46 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CORREO_TURISTA_PRINCIPAL" id="4AAB229A-A20E-FAAF-1873-D8ED982A9454">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-09 18:58:16 UTC</createdTime>
+<generatorID>CEF17CEA-601A-BF74-BC95-07EB53B7DF3D</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<referedAttribute>E4888C69-8EEC-E6DE-FD4D-C6B96B0AD0A6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="NOMBRE_TURISTA_PRINCIPAL" id="66397EEA-9DD4-57C7-F3B9-A96C57657061">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-29 22:46:36 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="APELLIDO_TURISTA_PRINCIPAL" id="C1FB0555-9B1A-C1A7-BFA3-1893C6B0865E">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-29 22:46:59 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="FOTO_PERFIL_TURISTA_PRINCIPAL" id="68C53F78-64AF-8560-7657-17EB6F01826A">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-29 22:47:22 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3000 CHAR</dataTypeSize>
+<ownDataTypeParameters>3000 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="PAIS_NACIONALIDAD_PRINCIPAL" id="4BE75101-54E0-079D-F703-317776C9FDF1">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-29 22:47:48 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="CORREO_TURISTA_AMIGO" id="11C59D04-BA12-8CD3-898F-76D5C5299E3D">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-09 18:58:16 UTC</createdTime>
+<generatorID>1CF91D60-B480-23F2-5996-D4C7F5211001</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<referedAttribute>E4888C69-8EEC-E6DE-FD4D-C6B96B0AD0A6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="NOMBRE_TURISTA_AMIGO" id="C1C0AF56-DAE8-4D26-2FEF-88E12A852A40">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-29 22:50:26 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="APELLIDO_TURISTA_AMIGO" id="64C66D38-FE6A-5D8C-25DE-7F50D9DDAB5E">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-29 22:50:47 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="FOTO_PERFIL_TURISTA_AMIGO" id="0A680130-DFD0-2AEB-926C-3A28B7FC996E">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-29 22:51:10 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3000 CHAR</dataTypeSize>
+<ownDataTypeParameters>3000 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="PAIS_NACIONALIDAD_TURISTA_AMIGO" id="BD4BBA67-6E12-57B4-5550-B21C597B5375">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-29 22:51:24 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_SOLICITUD_AMISTAD" id="F208E186-DDEF-868D-7500-6146F85F96A0">
+<createdBy>Raquel</createdBy>
+<createdTime>2016-03-16 04:34:46 UTC</createdTime>
+<generatorID>33698B47-F143-7672-2917-4F6227F50C9D</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<referedAttribute>3ECEEC56-46BF-1F75-F556-B82399470997</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="42E1CC49-A918-8B63-B700-8461EB269263" name="AMISTAD PK">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-02-09 18:58:16 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="86A94AFD-228E-62DF-8524-0B7BF336C68F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>8469254E-C8C0-84F8-E4E1-A62252828759,33698B47-F143-7672-2917-4F6227F50C9D</newElementsIDs>
+<nameFixed>true</nameFixed>
+<usedAttributes>
+<attributeRef>8469254E-C8C0-84F8-E4E1-A62252828759</attributeRef>
+<attributeRef>F208E186-DDEF-868D-7500-6146F85F96A0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

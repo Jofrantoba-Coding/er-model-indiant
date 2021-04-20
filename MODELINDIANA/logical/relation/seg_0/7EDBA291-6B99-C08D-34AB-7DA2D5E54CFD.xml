@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_MIEM_SUGIERE_INTERES_EMPATIA_1" directorySegmentName="seg_0" id="7EDBA291-6B99-C08D-34AB-7DA2D5E54CFD">
+<createdBy>ARQUIMEDES</createdBy>
+<createdTime>2016-03-02 16:28:38 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="F2A1FED3-034E-07A3-3611-0F33F82C4020" value="true"/>
+</engineerTo>
+<sourcePk>0E0FF15E-9BA6-61BD-980A-C406134AF83D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FBF5F06B-E23A-7F6B-6C9F-007960C10AF1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>574F7E78-FD95-1B7D-9452-DCCDEFE33722</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<nameFixed>true</nameFixed>
+</Relation>

@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="5D6D714A-FDDD-EE31-3DBA-6BBACCEC6808" name="VISTA_PUBLICIDAD">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-15 01:16:13 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<nameFixed>true</nameFixed>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_VISTA_PUBLICIDAD" id="ABFF50B0-A64F-5B28-7291-508B142E0614">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-15 01:17:23 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="CORREO_TURISTA" id="18CF9D47-DFA1-3536-67DE-61AFE5A984D2">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-15 01:17:02 UTC</createdTime>
+<generatorID>39413137-C8BC-17A2-CCD4-8DE7ECBFA211</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<referedAttribute>E4888C69-8EEC-E6DE-FD4D-C6B96B0AD0A6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_PUBLICIDAD_NEGOCIO" id="68461798-128A-3872-31CD-D54E1BA49DDB">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-15 01:17:18 UTC</createdTime>
+<generatorID>C72CBBD5-C309-051C-C86B-8172A1512E95</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<referedAttribute>A25B530B-3B4F-83EA-12B9-400080A9489B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_COLONIA" id="1C53AC12-7EBB-421F-EDC0-0CAB92F63184">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-15 01:18:09 UTC</createdTime>
+<generatorID>6E194524-5437-21EA-5A26-5D0CD5A9742A</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>26624B01-767F-05B8-EDFA-FB64155828C8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_DESTINO" id="DDEF0125-A7D9-50A9-B764-86E5BEF3CF40">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-15 01:18:19 UTC</createdTime>
+<generatorID>D7A3E057-754C-C5B9-464B-B28A90939566</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>9D372987-1C2D-92EE-7E3F-1EDFE961E98D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="TIPO" id="1B959D2F-BF40-FB3E-8784-84B08C5D3B55">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-15 01:36:23 UTC</createdTime>
+<comment>VI: VISTA IMPRESION  (CONTABILIZA)&lt;br/&gt;C: CLIK IMPRESION  (NO CONTABILIZA)&lt;br/&gt; -----&lt;br/&gt; CONTABILIZA: DE LA CANTIDAD DE VISTAS QUE PAGO</comment>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="ID_TIPO_INTERACCION_PUBLICIDAD" id="C1AF796C-E6EF-D3E0-A197-D81DDC1CEAC6">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-15 01:39:13 UTC</createdTime>
+<generatorID>4BEC8BEB-E3F8-8A11-8DCD-DBDACEB67743</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>239DD27F-DD65-2B2F-E116-2B8B03A4F1AA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<nameFixed>true</nameFixed>
+</Attribute>
+<Attribute name="FECHA" id="6DAC6313-B8F9-E267-ECEB-A41E2E7F1C8F">
+<createdBy>Raquel</createdBy>
+<createdTime>2016-04-16 13:24:47 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="606B6B75-D4AD-A766-E7FF-DC8C1E800E75" name="VISTA_ANUNCIO PK">
+<createdBy>PLANCK</createdBy>
+<createdTime>2016-04-15 01:17:02 UTC</createdTime>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<engineerTo>
+<item key="045C4B78-63A6-87FA-9DEE-CCF9A07C15BC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>ABFF50B0-A64F-5B28-7291-508B142E0614</newElementsIDs>
+<nameFixed>true</nameFixed>
+<usedAttributes>
+<attributeRef>ABFF50B0-A64F-5B28-7291-508B142E0614</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

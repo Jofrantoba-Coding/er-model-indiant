@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="9BEBBB30-6B2C-1725-3904-94297E3EDCBA" name="TIPO_CAMBIO">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>6A52DF7D-04C4-8985-47FF-C910351A868C</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TIPO_CAMBIO" id="1B5E2716-5831-96F7-7806-B663F03648DF">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>A51347B2-6E1B-CB34-BA47-232934C102DE</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO_VENTA" id="7294D836-F7CE-BBE9-2D7F-3662DB12B822">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>AAA54D6B-B9D9-BF0D-9A13-E40AD1E7C136</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO_COMPRA" id="E02E51A5-C2F4-AC43-1FB6-CBDC397252CB">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>8F023428-336D-E4B4-5512-1C61DA9D7611</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="BA0BE6A8-A78A-5DAE-C24D-0A40731E09A4">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>CFC33622-801F-0FB5-F1AE-FC15CB3571FF</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_MONEDA_ORIGEN" id="01CC06B7-D4DC-5249-5F24-478907AB986D">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>CLAVE PRIMARIA ES EL CODIGO ISO DE MONEDA - ISO 4217</comment>
+<generatorID>7EB68645-EDCB-FB4B-DD97-4F232F0F1CD6</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1B0C388-28C0-DD86-E5BF-BCBA44E90482" referredColumn="FFB36E2A-B9E3-F94F-C6BE-AB53AFE9CC29"/>
+</associations>
+</Column>
+<Column name="ID_MONEDA_DESTINO" id="AA0DACE0-EE15-3F88-6A72-E156393512B4">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<comment>CLAVE PRIMARIA ES EL CODIGO ISO DE MONEDA - ISO 4217</comment>
+<generatorID>0D2D310C-38AD-5329-1A90-37B25EE40E41</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40DB56A9-DA5B-CAEB-923A-46535FA3C1FE" referredColumn="FFB36E2A-B9E3-F94F-C6BE-AB53AFE9CC29"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F498917-C638-E8A1-7D11-880B47993C14" name="TIPO_CAMBIO_PK">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:34 UTC</createdTime>
+<generatorID>AB810AD0-5FC1-3DC9-60AE-7B72F28F90F7</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B5E2716-5831-96F7-7806-B663F03648DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3AC7CE8B-533C-684C-1EE0-7F27FDEFC588" name="REL_MON_DESTINO_TIPOCAMB">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>11D1E61A-C42F-78A3-8C30-4787CE213E28</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA0DACE0-EE15-3F88-6A72-E156393512B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85345CC8-F21F-2D06-88D4-B79EAD45A339" name="REL_MON_ORIGEN_TIPOCAMB">
+<createdBy>root</createdBy>
+<createdTime>2016-06-17 18:09:35 UTC</createdTime>
+<generatorID>2ED2FAE0-B458-A791-C732-8E85FDA86975</generatorID>
+<ownerDesignName>MODELINDIANA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01CC06B7-D4DC-5249-5F24-478907AB986D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
